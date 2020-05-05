@@ -1,6 +1,7 @@
 ---
 title: "Jekyll ile İlk Yazı"
 layout: post
+comments: true
 ---
 
 Yeniden günlük yazmaya ve bu iş için [Jekyll](https://jekyllrb.com/)
