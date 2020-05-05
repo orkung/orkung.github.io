@@ -31,6 +31,7 @@ navigation:
 external:                    # see http://fontawesome.com/icons
    - {title: Mail, icon: envelope, url: "mailto:orkungunayx[at]gmail[dot]com"}
    - {title: Github, icon: github, url: "https://github.com/ogny"}
+   - {title: Twitter, icon: twitter, url: "https://twitter.com/__geeky"}
    - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments: 
