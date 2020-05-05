@@ -1,5 +1,5 @@
 ---
-Title: San Disklerin Centos7'ye Tanıtılması
+title: "San Disklerin Centos7'ye Tanıtılması"
 layout: post
 ---
 

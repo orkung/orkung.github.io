@@ -1,5 +1,5 @@
 ---
-Title: Linux Swap Alanı Yönetimi
+title: "Linux Swap Alanı Yönetimi"
 layout: post
 ---
 
