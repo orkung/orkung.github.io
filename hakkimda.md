@@ -1,4 +1,5 @@
 ---
+title: "Hakkımda"
 permalink: "/hakkimda/"
 layout: page
 ---
