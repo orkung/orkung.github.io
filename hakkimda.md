@@ -5,7 +5,7 @@ layout: page
 ---
 
 Dönüşümümde etkili olmuş, size de ilham olabilecek bazı ayrıntıları paylaşmak istiyorum.
-* [Ujayı nefesi](https://en.wikipedia.org/wiki/Ujjayi_breath)
+* [Ujai nefesi](https://en.wikipedia.org/wiki/Ujjayi_breath)
 * [Regolith Linux Dağıtımı](https://regolith-linux.org/)
 * [Vim metin editörü](https://www.vim.org/)
 * [Vegan beslenme](https://en.wikipedia.org/wiki/Veganism)
