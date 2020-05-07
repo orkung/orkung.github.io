@@ -24,3 +24,7 @@ Tema olarak [Niklas Buschmann](https://niklasbuschmann.github.io/contrast/)'ın
 * Her oluşturduğumuz dosyanın başına, uygun [Front Matter](https://jekyllrb.com/docs/front-matter/)'i ekliyoruz.
 * Sitedeki tüm değişiklikleri git komutlarıyla gerçekleştiriyoruz.
 * Dosyaları push'lamadan önce, yaptığımız değişiklikleri yerel makinamızdan izlemek için; `Jekyll gem`'ini kurup (`gem install --user jekyll`) ana dizinde `jekyll serve` çalıştırıp [http://127.0.0.1:4000](127.0.0.1:4000) adresine gidebiliriz.
+
+### Yapilacaklar
+* SEO Tag'larini ekleme.
+* Disqus plugin'i ekleme.
