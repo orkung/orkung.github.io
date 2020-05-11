@@ -22,3 +22,11 @@ gelebiliyorum.
 ```bash
 /usr/bin/remontoire -c /etc/regolith/i3/config 2>/dev/null &
 ```
+
+* Kurulumdan sonra eklediğim paketler;
+```bash
+sudo apt install i3xrocks-memory i3xrocks-time poppler-utils 
+```
+
+* i3bar'da layout'u görüntüleyebilmek için
+

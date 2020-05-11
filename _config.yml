@@ -27,6 +27,7 @@ minimal: true                # use simpler style
 navigation:
   - {file: "index.html", icon: home}
   - {file: "hakkimda.md", icon: address-card}
+  - {file: "faydali_linkler.md", icon: address-card}
 
 external:                    # see http://fontawesome.com/icons
    - {title: Mail, icon: envelope, url: "mailto:orkungunayx[at]gmail[dot]com"}
