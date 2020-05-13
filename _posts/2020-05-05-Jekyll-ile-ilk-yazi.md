@@ -28,3 +28,4 @@ Tema olarak [Niklas Buschmann](https://niklasbuschmann.github.io/contrast/)'ın
 ### Yapılacaklar
 * SEO Tag'larını ekleme.
 * Disqus plugin'i ekleme.
+* [Twitter Blog Duyurucu](https://blog.selcukcihan.com/web-development/twitter-blog-duyurucu/) eklenecek.
