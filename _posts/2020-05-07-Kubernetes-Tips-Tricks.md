@@ -1,4 +1,0 @@
----
-title: "Kubernetes"
-layout: post
----
