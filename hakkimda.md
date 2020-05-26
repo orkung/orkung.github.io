@@ -10,7 +10,7 @@ kalmam dışında, İstanbul'dan uzak kalmadım; bir köyüm, memleketim yok.
 İstanbul Üniversitesi İktisat bölümünü zor bela bitirdikten sonra, hayata dair
 herhangi bir beklentimin olmaması dolayısıyla, ne yapacağını bilmez bir halde
 yaşıyorken; GNU/linux'la tanıştım. İlk tanışıklığım, İstanbul Bilgi
-Üniversitesinde düzenlenen, IBM'in sponsorluğundaki Linux Eğitimleri sayesinde
+Üniversitesinde düzenlenen, IBM'in sponsorluğundaki Linux eğitimleri sayesinde
 oldu. Linux üzerinde koşan hosting, datacenter, ar-ge, yazılım firmalarında
 sistem yöneticiliği yaptım. Devamında, infrastructure-uygulama-kullanıcı
 arasındaki katmanların artışıyla, bütün bu zincirin yönetimini sağlamak için
@@ -28,17 +28,19 @@ Artık 40 yaşında olduğumdan, belli bir olgunluğa ulaştığımı hissediyor
 kapitalizmin, içinden geçtiği dönemsel ihtiyaçlarına uygun insan tipini
 ürettiğini görüyorum. Kendim de bu sürecin bir ürünüyüm; dolayısıyla benden
 öncekileri ve sonrakileri eleştirmiyorum. Bu sistemin dünyamızdaki hayatı
-tükettiği bir dönemde yaşıyorum. sistemin gündelik hayatı örgütlediği
-temel varsayımların doğruluğuna inanmıyorum. Başka bir dünyayı kurabilir miyiz,
+tükettiği bir dönemde yaşıyorum. sistemin gündelik hayatı örgütlediği temel
+varsayımların doğruluğuna inanmıyorum. Başka bir dünyayı kurabilir miyiz,
 bilmiyorum. Fakat her insanın kendi hayatında başka bir dünyayı kurabileceğine
 inanıyorum. Veganım, feministim, yolculuklarımı mümkün mertebe bisikletle
 yapıyorum. Düzenli olarak kambucha mantarının çayını yaparım, mutfak atıklarımı
-ayrıştırır, onlarla kırmızı kaliforniya solucanlarını besleyerek organik toprak
-yapmalarını sağlarım.
+ayrıştırır, onlarla solucanlarımı besleyerek toprak elde ederim.
 
-Düşünsel olarak, herhangi bir tabum yok. Gezegenimize faydası olacak
-her fikre açığım.  Pratik ve pragmatik biri olmaya çalışıyorum; sanat için
-sanat, bilim için bilim, felsefe için felsefe yapılması bana faydalı gelmiyor;
-hepsinin gezegen yararına sunulmasını, öncelikli ihtiyaçlarımızı dönüştürmek
-için kullanılmasını savunuyorum. 
+Düşünsel olarak, herhangi bir tabum yok. faydalı buldugum her fikre açığım.
+Pratik ve pragmatik biri olmaya çalışıyorum; sanat için sanat, bilim için
+bilim, felsefe için felsefe yapılması bana faydalı gelmiyor; hepsinin gezegen
+yararına sunulmasını, öncelikli ihtiyaçlarımızı dönüştürmek için kullanılmasını
+savunuyorum. 
 
+Burada kişisel fikirlerimi yayınlamayı düşünmüyorum. Mesleki sayılacak ilgilere
+odaklanacağım, kişisel fikirlerimi takip etmek isterseniz [Evrenle
+Dans](safruhani.wordpress.com) günlüğüme bakabilirsiniz.
