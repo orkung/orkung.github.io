@@ -23,7 +23,7 @@ Tema olarak [Niklas Buschmann](https://niklasbuschmann.github.io/contrast/)'ın
 * **Yeni sayfa eklemek için**; ana dizinde; `sayfa-adi.md` dosyası oluşturuyoruz. Anasayfadaki menüde görünmesi için \_config.yml'da `navigation:` altına `sayfa-adi.md` dosyasını ekliyoruz.
 * Her oluşturduğumuz dosyanın başına, uygun [Front Matter](https://jekyllrb.com/docs/front-matter/)'i ekliyoruz.
 * Sitedeki tüm değişiklikleri git komutlarıyla gerçekleştiriyoruz.(add, commit, push)
-* Dosyaları push'lamadan önce, yaptığımız değişiklikleri yerel makinamızdan izlemek için; `Jekyll gem`'ini kurup (`gem install --user jekyll`) ana dizinde `jekyll serve` çalıştırıp [http://127.0.0.1:4000](127.0.0.1:4000) adresine gidebiliriz.
+* Dosyaları push'lamadan önce, yaptığımız değişiklikleri yerel makinamızdan izlemek için; `Jekyll gem`'ini kurup (`gem install --user jekyll`) ana dizinde `jekyll serve` çalıştırıp [127.0.0.1:4000](http://127.0.0.1:4000) adresine gidebiliriz.
 
 ### Yapılacaklar
 * SEO Tag'larını ekleme.
