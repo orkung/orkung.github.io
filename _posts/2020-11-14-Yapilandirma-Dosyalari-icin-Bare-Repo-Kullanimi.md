@@ -8,8 +8,8 @@ Bu yazıda, dosyaları git repo'sunda tutarak, farklı ortamlarda aynı ayarlar�
 kullanmanın en basit yöntemini anlatacağım.
 
 Bu iş için Git'in bare repo özelliğini kullanacağım. Bu yöntemle, yapılandırma
-dosyalarını ayrı bir dizinde tutup, ana dizine linkleme veya başka bir yöntemle
-gösterme gibi ekstra işlem yapmaya gerek kalmıyor. Bare repo kullanmanın
+dosyalarını kullanıcının ev dizinine almak için ek bir yöntem uygulamaya gerek
+yok (dosya linkleme, make veya submodule ekleme gibi).
 mantığını öğrenmek isterseniz bu yazıda güzel anlatılmış; [Using a bare Git repo to get version control for my dotfiles](https://stegosaurusdormant.com/bare-git-repo/)
 
 

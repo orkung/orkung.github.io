@@ -41,3 +41,10 @@ disqus_shortname: "ogny"      # see https://disqus.com/
 
 plugins:
  - jekyll-feed
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      author: "Cavit Gunay"
