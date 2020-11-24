@@ -7,8 +7,8 @@ Kullandığım bazı araçlara dair notlar ekleyeceğim;
 
 #### PYENV ile python sürüm yönetimi
 * pyenv
-kurulum için [https://github.com/pyenv/pyenv-installer](installer repo'su) 
-sanal ortamlar için [https://github.com/pyenv/pyenv-virtualenv](virtualenv repo'su)
+kurulum için [installer repo'su](https://github.com/pyenv/pyenv-installer), 
+sanal ortamlar için [virtualenv repo'su](https://github.com/pyenv/pyenv-virtualenv)
 
 açılış dosyalarını düzenleme;
 ```bash
