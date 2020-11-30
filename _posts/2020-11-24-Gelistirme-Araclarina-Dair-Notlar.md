@@ -21,12 +21,21 @@ Kullanım;
 ```bash
 pyenv virtualenv 2.7.10 my-virtual-env-2.7.10
 pyenv virtualenvs
-pyenv activate <name>
+pyenv activate my-virtual-env-2.7.10
 pyenv deactivate
 ```
 
-### RVM eklenecek
+[//]: # (### RVM)
+[//]: # (### APT  eklenecek)
+[//]: # (APT gelistirmeleriyle yeni komutlar hayatimiza giriyor.)
 
+### Vim 
+* Yankstack
 
-### APT  eklenecek
+### Linux cli
+* `loginctl`: Farkli bir kullaniciyi logout etmek icin;
+
+`loginctl` ile session id no alinir;
+
+`sudo loginctl kill-session <session-id-no>`
 
