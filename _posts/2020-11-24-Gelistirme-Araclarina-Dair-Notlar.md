@@ -40,3 +40,4 @@ pyenv deactivate
 `sudo loginctl kill-session <session-id-no>`
 
 [//]: # (hayat devam ediyor ve bu hayati zenginlestirecek bir deneyim)
+[//]: # (bu test ortami cok sukur iyi oldu)
