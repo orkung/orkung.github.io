@@ -41,4 +41,3 @@ pyenv deactivate
 
 [//]: # (hayat devam ediyor ve bu hayati zenginlestirecek bir deneyim)
 [//]: # (bu test ortami cok sukur iyi oldu)
-[//]: # (o zaman dans)
