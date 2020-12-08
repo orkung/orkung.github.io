@@ -51,3 +51,5 @@ plugins:
 
 ![screenshot](https://user-images.githubusercontent.com/4943215/73125195-5fa42200-3fa4-11ea-89f8-d09c1d6fe252.png)
 
+
+[//]: # (bu bir merge denemesidir)

@@ -3,6 +3,7 @@ title: "Geliştirme Araçlarına Dair Notlar"
 layout: post
 ---
 
+[//]: # (anlamasan da test et belki bulursun)
 Kullandığım bazı araçlara dair notlar ekleyeceğim;
 
 #### PYENV ile python sürüm yönetimi
