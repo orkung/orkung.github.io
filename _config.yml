@@ -30,8 +30,8 @@ navigation:
   - {file: "faydali_linkler.md", icon: address-card}
 
 external:                    # see http://fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:orkungunayx[at]gmail[dot]com"}
-  - {title: Github, icon: github, url: "https://github.com/ogny"}
+  - {title: Mail, icon: envelope, url: "mailto:cavit[at]orkun[dot]space"}
+  - {title: Github, icon: github, url: "https://github.com/orkung"}
   - {title: Twitter, icon: twitter, url: "https://twitter.com/__geeky"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
