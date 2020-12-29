@@ -42,16 +42,10 @@ pyenv deactivate
 
 ### Linux cli
 * `loginctl`: Farkli bir kullaniciyi logout etmek icin;
-* `timedatectl`: sistem zamani ayarlanir
 
 `loginctl` ile session id no alinir;
+
 `sudo loginctl kill-session <session-id-no>`
-
-timewarrior `timew`: incremental olarak calisilan zamanin kaydini tutmayi
-saglar. Tag'ler ile hangi ise ne kadar zaman harcandigi belirtilebilir.
-Backdating ozelligi ile gecmiste baslatmayi veya durdurmayi unuttugumuz
-kayitlari da duzenleyebiliriz.
-
 
 ### Snap
 * kurulan paketleri guncellemek (bir cronjob bulamadim..)
@@ -89,4 +83,29 @@ wsl --list --running
 wsl --terminate <wsl_name>
 ```
 
+### SQL
+
+Some of The Most Important SQL Commands
+
+`SELECT` - extracts data from a database
+
+`UPDATE` - updates data in a database
+
+`DELETE` - deletes data from a database
+
+`INSERT INTO` - inserts new data into a database
+
+`CREATE DATABASE` - creates a new database
+
+`ALTER DATABASE` - modifies a database
+
+`CREATE TABLE` - creates a new table
+
+`ALTER TABLE` - modifies a table
+
+`DROP TABLE` - deletes a table
+
+`CREATE INDEX` - creates an index (search key)
+
+`DROP INDEX` - deletes an index
 
