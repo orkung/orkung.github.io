@@ -1,7 +1,7 @@
-----
+---
+title: "Taskwarrior Kullanimim"
 layout: post
-title: taskwarrior Kullanimim
-----
+---
 
 farkli data file'lar olustur ki is task'larinla digerleri birarada
 goruntulenmesin
@@ -11,28 +11,6 @@ eisenhower matrix'ine uygun olarak her isi tag'la
 2) not-urgent&important: nui
 3) urgent&not-important: uni
 4) not-urgent&not-important: nuni
-
-#### todoist makalesi
-1) adindan anlasildigi gibi acil ve su goturmez sekilde oncelikli
-2) This is the spot where you are focused not on problems (as with Q1) but on
-   opportunities and growth
-3) Urgent but Not Important tasks are best described as busy work. These tasks
-   are often based on expectations set by others and do not move you closer to
-   your long-term goals.
-   Uzak durmak icin bazi oneriler;
-   - Turn off notifications on your phone and computer when working
-   - Be clear with others about how much time you can spend on a given task
-   - Save Q3 tasks for times when you are very low on energy rather than putting
-     them first thing in the morning
-   - Negotiate your workload with your boss
-   - Practice saying no
-
-
-How to rebalance your quadrants
-
-
-[The Eisenhower Matrix](https://todoist.com/productivity-methods/eisenhower-matrix)
-
 
 #### Taskwarrior Android app'ten
 
@@ -62,8 +40,34 @@ Arayuzdeki her bir basliga ornekler yazilacak;
 * Waiting (hidden) tasks
 * Custom (UAD-estimation) examples
 
-#### intheam'den
+#### Sync
+* pc-mobile sync icin taskserver kurmaya gerek yok. inthe.am'dan hesap acmak
+  yeterli.
+* Windows 10'da hyper-v uzerindeki sanal makina ile WSL arasinda;
+    - Sanaldan samba ile dizin paylastirilir. 
+    - Windows'ta bu dizin network drive olarak map'lenir.
+    - WSL'de `-t drvs` ile mount edilir.
+
+
+#### Diger
+* raporlama
+  - long ile etiketleri gorebilirsin
+* Add the special tag +next to a task, to boost its urgency:
+  `task ID modify +next`
+* proje adini degistirme;
+`task project:OLD modify project:NEW`
 
 
 
+Kaynaklar
+* [Todo Lists in TaskWarrior](https://docs.slackware.com/howtos:general_admin:taskwarrior)
+* [Best Practices](https://taskwarrior.org/docs/best-practices.html)
+* [Durations](https://taskwarrior.org/docs/durations.html)
+
+
+
+#### Taskwiki
+* Unlem priority'i karsiliyor
+* parantez ici tarih due date
+* 
 

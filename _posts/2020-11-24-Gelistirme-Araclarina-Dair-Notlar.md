@@ -34,6 +34,9 @@ pyenv deactivate
 * vim-yaml-folds
   `za`: Toggle current fold
   `zR`: Expand all folds
+* ultisnips
+
+[Creating Basic Snippets](https://www.youtube.com/watch?v=f_WQxYgK0Pk&feature=emb_logo)
 
 * yeni mapping'ler atiyorsun, ancak vimrc'de bunlara atanmis baska degerler
   olup olmadigini bilmiyorsun, bu durumda `:verbose imap <key>` yazarak
