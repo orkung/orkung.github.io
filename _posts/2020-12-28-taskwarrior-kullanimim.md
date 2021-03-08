@@ -3,8 +3,14 @@ title: "Taskwarrior Kullanimim"
 layout: post
 ---
 
-farkli data file'lar olustur ki is task'larinla digerleri birarada
-goruntulenmesin
+~~farkli data file'lar olustur ki is task'larinla digerleri birarada goruntulenmesin~~
+Context bu islevi yerine getiriyor, farkli data file'lar projeler arasindaki
+gecisi imkansiz kildigindan is yukunu arttiracaktir.
+
+task'i girerken `wait` ile ready raporunda goruntulenmesini belirtirsin, bu
+task'ta `wait until` olarak goruntulenir. `until` ile task'in ne zaman
+silinecegini belirtirsin.
+
 
 eisenhower matrix'ine uygun olarak her isi tag'la 
 1) urgent&important: ui
@@ -57,6 +63,8 @@ Arayuzdeki her bir basliga ornekler yazilacak;
 * proje adini degistirme;
 `task project:OLD modify project:NEW`
 
+#### Arastirilacak
+task'a ileri tarihli bir `scheduled` verdiginde ready'de gorunuyor.
 
 
 Kaynaklar

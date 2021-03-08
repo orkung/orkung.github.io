@@ -70,7 +70,27 @@ Example
 SELECT * FROM Customers
 WHERE Country IN (SELECT Country FROM Suppliers);
 
+* sutunda birden cok data'yi cekmek icin where clause'da ```IN``` kullanilir.
 
-
-
-
+```
+select
+    *
+from
+    tablo_adi
+where
+    sutun_adi IN (
+        'deger_1',
+        'deger_2',
+    );
+```
+* Time'a gore sorguda hata alinirsa (string, float, integer birarda oldugunda)
+  donusturulup sorgulanabilir;
+  
+```
+select
+    *
+from
+    tablo_adi
+where
+     TO_CHAR(insert_time, 'DD-MM-YYYY') = '25-02-2021';
+```
