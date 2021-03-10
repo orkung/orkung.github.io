@@ -94,3 +94,5 @@ from
 where
      TO_CHAR(insert_time, 'DD-MM-YYYY') = '25-02-2021';
 ```
+
+`set define off`  insert ve update öncesi kullanılıyor. scriptteki bazı karakterlerlere kızıyorsa (&  gibi) bu konut kullanılabilir.
