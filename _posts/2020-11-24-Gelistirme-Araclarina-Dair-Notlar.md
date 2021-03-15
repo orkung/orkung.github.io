@@ -29,6 +29,14 @@ pyenv deactivate
 [//]: # (### APT  eklenecek)
 [//]: # (APT gelistirmeleriyle yeni komutlar hayatimiza giriyor.)
 
+### RVM
+```bash
+rvm gemset create proje_adi
+rvm gemset use proje_adi
+rvm use 2.7.0@proje_adi
+```
+
+
 ### Vim 
 * Yankstack
 * vim-yaml-folds
@@ -85,11 +93,22 @@ Continuum icin systemd service'i yazmak lazim, bu konuya calisacagim.
 ](https://github.com/tmux-plugins/tmux-continuum/blob/master/docs/systemd_details.md)
 
 ### Windows
-* wsl
-calisan process'leri gorme ve oldurme;
+#### wsl
+* calisan process'leri gorme ve oldurme;
 ```
 wsl --list --running
 wsl --terminate <wsl_name>
+```
+* ram kullanimini sinirlandirma: windows Kullanicisinin ev dizininde
+  `.wslconfig` dosyasina asagidakini yaz;
+```
+[wsl2]
+memory=1GB
+```
+
+* update'te sorun olursa;
+```bash
+sudo hwclock --hctosys
 ```
 
 
