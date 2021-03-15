@@ -111,4 +111,6 @@ memory=1GB
 sudo hwclock --hctosys
 ```
 
-
+#### vscode
+command palette: `ctrl-shift-p`, set language mode: `ctrl-k-m`, zen mode:
+`ctrl-k-z`
