@@ -114,3 +114,8 @@ sudo hwclock --hctosys
 #### vscode
 command palette: `ctrl-shift-p`, set language mode: `ctrl-k-m`, zen mode:
 `ctrl-k-z`
+
+#### CRC
+* crc network'unu actiktan sonra wsl'in dns cozmesi icin crc'nin atadigi server
+  ip'sini resolv.conf'a yaz
+
