@@ -98,7 +98,10 @@ Continuum icin systemd service'i yazmak lazim, bu konuya calisacagim.
 ```
 wsl --list --running
 wsl --terminate <wsl_name>
+
 ```
+* docker-desktop alpinem'mis, chroot etmek icin;  `wsl -d docker-desktop`
+
 * ram kullanimini sinirlandirma: windows Kullanicisinin ev dizininde
   `.wslconfig` dosyasina asagidakini yaz;
 ```
