@@ -5,19 +5,19 @@ layout: post
 
 Kullandığım bazı araçlara dair notlar ekleyeceğim;
 
-#### PYENV ile python sürüm yönetimi
-* pyenv
+### Python
+#### PYENV ile sürüm yönetimi
 kurulum için [installer repo'su](https://github.com/pyenv/pyenv-installer), 
 sanal ortamlar için [virtualenv repo'su](https://github.com/pyenv/pyenv-virtualenv)
 
-açılış dosyalarını düzenleme;
+* açılış dosyalarını düzenleme;
 ```bash
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
 echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bash_profile
 ```
 
-Kullanım;
+* Kullanım;
 ```bash
 pyenv virtualenv 2.7.10 my-virtual-env-2.7.10
 pyenv virtualenvs
@@ -25,9 +25,16 @@ pyenv activate my-virtual-env-2.7.10
 pyenv deactivate
 ```
 
-[//]: # (### RVM)
+#### Diger Python konulari
+* base64 ile encode etme: girdigin karakter sayisi kadar karakter basar.
+```python
+ base64.b64encode(b'denememe')
+ b'ZGVuZW1lbWU='
+```
+
 [//]: # (### APT  eklenecek)
 [//]: # (APT gelistirmeleriyle yeni komutlar hayatimiza giriyor.)
+
 
 ### RVM
 ```bash
