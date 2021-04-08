@@ -76,19 +76,24 @@ kayitlari da duzenleyebiliriz.
 
 ### Tmux
 sidebar Key bindings
+```
 prefix + Tab - toggle sidebar with a directory tree
 prefix + Backspace - toggle sidebar and move cursor to it (focus it)
+```
 
 resurrect Key bindings
 This plugin goes to great lengths to save and restore all the details from your
 tmux environment. 
 
+```
 prefix + Ctrl-s - save
 prefix + Ctrl-r - restore
+```
 
 pane'i isaretle (marked), sessionist'le baska bir session'a gonder;
-```
-prefix + t<secondary-key> - join currently marked pane (prefix + m) to current session/window, and switch to it
+
+```bash
+prefix + t<secondary-key> # join currently marked pane (prefix + m) to current session/window, and switch to it
 secondary-keys
 h, -, ": join horizontally
 v, |, %: join vertically
@@ -100,30 +105,29 @@ Continuum icin systemd service'i yazmak lazim, bu konuya calisacagim.
 ](https://github.com/tmux-plugins/tmux-continuum/blob/master/docs/systemd_details.md)
 
 ### Windows
+* coklu monitorle calisirken tek monitorden ss alma: `ctrl+alt+prntscrn`
 #### wsl
 * calisan process'leri gorme ve oldurme;
 ```
 wsl --list --running
 wsl --terminate <wsl_name>
-
 ```
-* docker-desktop alpinem'mis, chroot etmek icin;  `wsl -d docker-desktop`
+
+* docker-desktop alpinem'mis, chroot etmek icin; `wsl -d docker-desktop`
 
 * ram kullanimini sinirlandirma: windows Kullanicisinin ev dizininde
   `.wslconfig` dosyasina asagidakini yaz;
+ 
 ```
 [wsl2]
 memory=1GB
 ```
 
-* update'te sorun olursa;
-```bash
-sudo hwclock --hctosys
-```
+* update'te sorun olursa; `sudo hwclock --hctosys`
 
 #### vscode
 command palette: `ctrl-shift-p`, set language mode: `ctrl-k-m`, zen mode:
-`ctrl-k-z`, paste image: ``Ctrl+Alt+V 
+`ctrl-k-z`, paste image: `Ctrl+Alt+V`, preview markdown: `Ctrl+Shift+V`
 
 #### CRC
 * crc network'unu actiktan sonra wsl'in dns cozmesi icin crc'nin atadigi server
