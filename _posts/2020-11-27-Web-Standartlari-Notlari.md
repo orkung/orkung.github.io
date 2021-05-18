@@ -1,5 +1,5 @@
 ---
-title: "Web Standartlari Notlari"
+title: "Web Standartlari Notları"
 layout: post
 ---
 

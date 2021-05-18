@@ -55,7 +55,8 @@ others so load is well balanced within the cluster.
 
 #### Producers
 producer publish data to topics of their choice. the producer is responsible of
-choosing which to assign to which partition within the topic.
+choosing which to assign to which partition within the topic. In other
+publish/subscribe systems, these may be called *publishers* or *writers*.
 
 #### Consumers
 messaging tradionally has two models; queuing and publish-subscribe
@@ -69,6 +70,21 @@ published to a topic is delivered to one consumer instance within each
 subscribing consumer group. Consumer instances can be in seperate processes or
 on seperate machines.
 
+Consumers read messages. In other publish/subscribe systems, these clients may
+be called *subscribers* or *readers*
+
+#### Broker
+Kafka brokers are designed to operate as part of a *cluster*. Within a cluster
+of brokers, one broker will also function as the cluster *controller* (elected
+automatically from the live members of the cluster). The controller is
+responsible for administrative operations, including assigning partitions to
+brokers and monitoring for broker failures. A partition is owned by a single
+broker in the cluster, and that broker called the *leader* of the partition. A
+partition may be assigned to multiple brokers, which will result in the
+partition being replicated (as seen in Figure 1-7). This provides redundancy of
+messages in the partition, such that another broker can take over leadership if
+there is a broker failure.
+
 [//]: # export ZK="172.20.0.3:2181"
 [//]: # /opt/kafka/bin/kafka-topics.sh --zookeeper $ZK --list
 [//]: # export ZK="172.20.0.3:2181"
@@ -80,12 +96,66 @@ on seperate machines.
 [//]: # $KAFKA_HOME/bin/kafka-console-consumer.sh --topic=topic --bootstrap-server 172.20.0.2:9092
 [//]: # https://rmoff.net/2018/08/02/kafka-listeners-explained/
 [//]: # https://www.confluent.io/blog/kafka-client-cannot-connect-to-broker-on-aws-on-docker-etc/
+[//]: # kafka-run-class.sh kafka.tools.GetOffsetShell --broker-list localhost:9092 --topic topic-name
 
 [ayaga_kaldirma](https://wurstmeister.github.io/kafka-docker)
 
+### Kafka: The Definitive Guide Notes (Oreilly book)
+*Publish/subscribe messaging* is a pattern that is characterized by the sender
+(publisher) of a piece of data (message) not specifically directing it to a
+receiver (subscriber) subscribes to receive certain classes of  messages.
 
-ZooKeeper has five primary functions.  Specifically, ZooKeeper is used for
-controller election, cluster membership, topic configuration, access control
-lists, and quotas.
+Kafka often described as a "distributed commit log" or more recently as a
+"distributing streaming platform."
+
+the unit of data within Kafka is called a *message*.
+the term *stream* is often used when discussing data within systems like Kafka.
+Most often, a stream is considered to be a single topic of data
+
+the replication mechanisms within the Kafka clusters are designed only to work
+wihin a single cluster, not between multiple clusters.
+
+Kafka producers: Writing messages to Kafka.
+you will always use Kafka by writing a producer that writes data to kafka, a
+consumer that reads data from kafka, or an application that servers both roles.
+ 
+a producer object can be used by multiple threads to send messages.
+
+#### Partitions
+
+kafka messages are key-value pairs and while it's possible to create a
+ProducerRecord with just a topic and a value, with the key set to null by
+default, most applications produce records with keys. Keys serve two goals:
+* they are additional information that gets stored with the message
+* they are also used to decide which one of the topic partitions the message
+  will be written to. All messages with the same key will go to the same
+  partition. This means that if a process is reading only a subset of the
+  partitions in a topic, all records for a single key will be ready by the same
+  process. 
+
+
+
+#### ZooKeeper is used for
+
+* controller election
+* cluster membership
+* topic configuration
+* access control
+* lists, and quotas.
+
+Kafka utilizes ZooKeeper for storing metadata information about the brokers,
+topics and partitions. Writes to ZooKeeper are only performed on changes to the
+members of consumer groups or on changes to Kafka cluster itself.
+
+
+
 [//]: # https://dattell.com/data-architecture-blog/what-is-zookeeper-how-does-it-support-kafka/#:~:text=ZooKeeper%20is%20used%20in%20distributed,of%20Kafka%20topics%20and%20messages.
 [//]: # https://www.confluent.io/blog/kafka-client-cannot-connect-to-broker-on-aws-on-docker-etc/?utm_source=github&utm_medium=rmoff&utm_campaign=ty.community.con.rmoff-listeners&utm_term=rmoff-devx
+[//]: # https://kafka.apache.org/quickstart
+ 
+
+#### from udemy lesson
+* kafka create single partition per topic default.
+
+*  ProducerConfig values: 
+    - acks = 1

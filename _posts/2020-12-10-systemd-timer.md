@@ -1,5 +1,5 @@
 ---
-title: "Systemd Timer Notlari"
+title: "Systemd Timer Notları"
 layout: post
 tags: systemd
 ---

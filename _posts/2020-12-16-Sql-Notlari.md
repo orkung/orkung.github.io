@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sql Notlari"
+title: "Sql Notları"
 ---
 
 Asagidaki notlari w3schools sql tutorial sayfasinda calisirken tuttum. Sitedeki
