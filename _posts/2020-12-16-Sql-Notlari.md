@@ -202,3 +202,13 @@ select
 from tablo_adi
 where key='value';
 ```
+
+* tablo join'leyerek data cekme
+
+```sql
+select * from tablo_1 as 1, tablo_2 as 2
+where 1.kolon_1=2.kolon_1
+and 2.kolon_2 in (
+...
+);
+```

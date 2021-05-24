@@ -133,9 +133,18 @@ default, most applications produce records with keys. Keys serve two goals:
   partitions in a topic, all records for a single key will be ready by the same
   process. 
 
+#### Consumer Concepts 
+
+kafka consumers are typically part of a consumer group. the main way we scale
+data consumption from a kafka topic is by adding more consumers to a group.
+this is a good reason to create topics with a large number of partitions --it
+allows adding more consumers when the load increases.
 
 
-#### ZooKeeper is used for
+
+
+
+    #### ZooKeeper is used for
 
 * controller election
 * cluster membership
