@@ -203,6 +203,26 @@ from tablo_adi
 where key='value';
 ```
 
+* select ciktisinin arasina kendi yazacagini ekleme, ornegin bir shell
+  script'in adini.
+
+```sql
+select distinct
+    'sh dosya.sh <parametre> ' || to_char (transaction_date, 'YYYY-MM-DD') || ' >>/tmp/dosya.txt'
+from
+    tablo_adi
+where
+    kosul='';
+```
+
+ornek cikti:
+
+```bash
+sh findsms.sh <parametre> 2018-02-26 >>/tmp/dosya.txt
+sh findsms.sh <parametre> 2018-03-04 >>/tmp/dosya.txt
+sh findsms.sh <parametre> 2018-03-01 >>/tmp/dosya.txt
+```
+
 * tablo join'leyerek data cekme
 
 ```sql
