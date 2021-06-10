@@ -129,6 +129,8 @@ memory=1GB
 command palette: `ctrl-shift-p`, set language mode: `ctrl-k-m`, zen mode:
 `ctrl-k-z`, paste image: `Ctrl+Alt+V`, preview markdown: `Ctrl+Shift+V`
 
+sekmeleri coklu satirda goruntuleme: `workbench.editor.wrapTabs`
+
 #### CRC
 * crc network'unu actiktan sonra wsl'in dns cozmesi icin crc'nin atadigi server
   ip'sini resolv.conf'a yaz
