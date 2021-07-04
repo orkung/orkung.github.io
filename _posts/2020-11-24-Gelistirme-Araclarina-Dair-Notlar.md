@@ -126,10 +126,21 @@ memory=1GB
 * update'te sorun olursa; `sudo hwclock --hctosys`
 
 #### vscode
-command palette: `ctrl-shift-p`, set language mode: `ctrl-k-m`, zen mode:
-`ctrl-k-z`, paste image: `Ctrl+Alt+V`, preview markdown: `Ctrl+Shift+V`
+* command palette: `ctrl-shift-p`
+* set language mode: `ctrl-k-m`
+* zen mode: `ctrl-k-z`
+* paste image: `Ctrl+Alt+V`
+* markdown preview: `Ctrl+Shift+V`
+* Sekmeleri coklu satirda goruntuleme: `workbench.editor.wrapTabs`
 
-sekmeleri coklu satirda goruntuleme: `workbench.editor.wrapTabs`
+#### Git
+
+* Working tree: you can think of a working tree as a file system.
+* Index: staging area, is where commits ara prepared.
+
+![add ve commit isleyisi](/assets/img/git_workflow.jpg)
+
+
 
 #### CRC
 * crc network'unu actiktan sonra wsl'in dns cozmesi icin crc'nin atadigi server
