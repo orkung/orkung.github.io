@@ -12,6 +12,7 @@ comments: true
 * /var/lib/jenkins /Product'a tasinacak
 * Hangi Java Kurulacagina karar ver 
 
+[//]: # (
 #### Recommended plugins
 Folders
 OWASP Markup Formatter
@@ -42,7 +43,7 @@ Authentication
 LDAP
 Email
 Extension
-Mailer
+Mailer)
 
 * [main url](http://192.168.122.234:8080/)
 * [pipeline syntax](http://192.168.122.234:8080/pipeline-syntax/)
