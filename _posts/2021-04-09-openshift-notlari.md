@@ -39,6 +39,17 @@ the kubelet also reserves at least the  *request* amount of that system
 resource specifically fot that container to use. (kubelet en az request edilen kadar
 kaynagi konteyner icin rezerve eder.)
 
+### Configure Liveness, Readiness and Startup Probes
+
+The kubelet uses liveness probes to know when to restart a container.
+The kubelet uses Readiness probes to know when a container is ready to start
+accepting traffic... One use of this signal is to control which pods are used
+as backends for Services. When a pod is not ready, it's removed from Service
+load balancers.
+
+The kubelet uses startup probes to know when a container application has
+started. This can be used to adopt liveness checks on slow starting containers,
+avoiding them getting killed by the kubelet before they are up and running.
 
 #### Notlar
 
