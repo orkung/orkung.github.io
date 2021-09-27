@@ -29,8 +29,7 @@ openshift_metrics_hawkular_hostname=hawkular-metrics.example.com```)
 
 [//]: # (### Setting limit ranges)
 
-
-### Requests and limits 
+### Requests and limits
 
 when you specify a resource *request* for containers in a pod, the scheduler
 uses this information to decide which node to place thep pod on
@@ -55,6 +54,6 @@ avoiding them getting killed by the kubelet before they are up and running.
 
 #### Notlar
 
-*  HPA tanimlanmasi resource quota'dan yemiyor.
+* HPA tanimlanmasi resource quota'dan yemiyor.
 
 #### ImageStreamTag
