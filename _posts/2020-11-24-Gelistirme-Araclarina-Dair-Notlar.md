@@ -131,7 +131,11 @@ memory=1GB
 * zen mode: `ctrl-k-z`
 * paste image: `Ctrl+Alt+V`
 * markdown preview: `Ctrl+Shift+V`
+* markdown preview side: `Ctrl-k V`
 * Sekmeleri coklu satirda goruntuleme: `workbench.editor.wrapTabs`
+* Convert Ascii to Turkish Characters `ctrl+alt+d`
+* Fuzzy file opener: `Ctrl-p`
+* Fuzzy search: `Ctrl-Shift-P`
 
 #### Git
 
@@ -140,9 +144,6 @@ memory=1GB
 
 ![add ve commit isleyisi](/assets/img/git_workflow.jpg)
 
-
-
 #### CRC
 * crc network'unu actiktan sonra wsl'in dns cozmesi icin crc'nin atadigi server
-  ip'sini resolv.conf'a yaz
-
+  ip'sini resolv.conf'a yaz  
