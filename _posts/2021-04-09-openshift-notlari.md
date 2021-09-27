@@ -18,14 +18,16 @@ kubectl create rolebinding default-sa-view \
     --clusterrole=view \
     --serviceaccount=system:serviceaccount:<proje_adi>:<kullanici_adi> \
     --namespace=<proje_adi>
-```
 $ oc policy add-role-to-user view system:serviceaccount:top-secret:robot
+```
 
-[//]: # (#### Metrics deployment
-```ansible
-ansible-playbook [-i </path/to/inventory>] <OPENSHIFT_ANSIBLE_DIR>/playbooks/openshift-metrics/config.yml -e openshift_metrics_install_metrics=True -e openshift_metrics_hawkular_hostname=hawkular-metrics.example.com
-``` 
-### Setting limit ranges
+[//]: # (#### Metrics deployment)
+[//]: # (```ansible ansible-playbook [-i </path/to/inventory>]
+<OPENSHIFT_ANSIBLE_DIR>/playbooks/openshift-metrics/config.yml -e
+openshift_metrics_install_metrics=True -e
+openshift_metrics_hawkular_hostname=hawkular-metrics.example.com```)
+
+[//]: # (### Setting limit ranges)
 
 
 ### Requests and limits 
@@ -56,4 +58,3 @@ avoiding them getting killed by the kubelet before they are up and running.
 *  HPA tanimlanmasi resource quota'dan yemiyor.
 
 #### ImageStreamTag
-
