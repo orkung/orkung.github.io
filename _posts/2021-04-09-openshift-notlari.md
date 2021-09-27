@@ -25,7 +25,7 @@ $ oc policy add-role-to-user view system:serviceaccount:top-secret:robot
 ```ansible
 ansible-playbook [-i </path/to/inventory>] <OPENSHIFT_ANSIBLE_DIR>/playbooks/openshift-metrics/config.yml -e openshift_metrics_install_metrics=True -e openshift_metrics_hawkular_hostname=hawkular-metrics.example.com
 ``` 
-### Setting limit ranges)
+### Setting limit ranges
 
 
 ### Requests and limits 
@@ -40,8 +40,9 @@ resource specifically fot that container to use. (kubelet en az request edilen k
 kaynagi konteyner icin rezerve eder.)
 
 
-#### Notlar:
-
+#### Notlar
 
 *  HPA tanimlanmasi resource quota'dan yemiyor.
+
+#### ImageStreamTag
 
