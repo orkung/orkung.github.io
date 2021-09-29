@@ -9,7 +9,7 @@ aktif policy'lere bakilir
 
 ```bash
 oc policy who-can create pod
-``` 
+```
 
 * Kullaniciya yetki verilir
 

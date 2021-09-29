@@ -4,10 +4,12 @@ layout: post
 ---
 
 ### Swap alanı ne işe yarar, gerekli mi?
+
 Linux fiziksel RAM'i page adındaki yığınlara bölerek kullanır. Swap işlemi, bu
-page'lerin diske kopyalanması ve page'lerin boşaltılması işlemine denir. 
+page'lerin diske kopyalanması ve page'lerin boşaltılması işlemine denir.
 
 ### Swap işlemi 2 sebepten ötürü gereklidir
+
 - Sistem fiziksel ram miktarından fazlasına ihtiyaç duyduğunda, kernel RAM'deki
   az kullanılan page'leri swap alanına yazar ve ihtiyaç olan hafızayı
   uygulamaya tahsis eder.
@@ -18,6 +20,7 @@ page'lerin diske kopyalanması ve page'lerin boşaltılması işlemine denir.
 ### Swap Türleri
 
 #### Disk Swap
+
 - Disk bölümü (Partition)
 
 ```bash
@@ -32,7 +35,6 @@ Hex code: 82
 #Changed system type of partition 2 to 82 (Linux swap)      
 Command: p
 ```
-- Dosya
 
 ```bash
 fallocate -l 1G /mnt/1GB.swap
@@ -46,5 +48,6 @@ swapon -s
 ```
 
 #### Ram swap
-- zRam: Cpu cache'inde kullanılmayan alan büyükse tercih edilebilir. 
-Kaynak: https://wiki.voidlinux.eu/Zram
+
+- zRam: Cpu cache'inde kullanılmayan alan büyükse tercih edilebilir.
+[Kaynak](https://wiki.voidlinux.eu/Zram)
