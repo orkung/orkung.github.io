@@ -140,11 +140,7 @@ data consumption from a kafka topic is by adding more consumers to a group.
 this is a good reason to create topics with a large number of partitions --it
 allows adding more consumers when the load increases.
 
-
-
-
-
-    #### ZooKeeper is used for
+#### ZooKeeper is used for
 
 * controller election
 * cluster membership
@@ -156,15 +152,12 @@ Kafka utilizes ZooKeeper for storing metadata information about the brokers,
 topics and partitions. Writes to ZooKeeper are only performed on changes to the
 members of consumer groups or on changes to Kafka cluster itself.
 
-
-
 [//]: # https://dattell.com/data-architecture-blog/what-is-zookeeper-how-does-it-support-kafka/#:~:text=ZooKeeper%20is%20used%20in%20distributed,of%20Kafka%20topics%20and%20messages.
 [//]: # https://www.confluent.io/blog/kafka-client-cannot-connect-to-broker-on-aws-on-docker-etc/?utm_source=github&utm_medium=rmoff&utm_campaign=ty.community.con.rmoff-listeners&utm_term=rmoff-devx
 [//]: # https://kafka.apache.org/quickstart
- 
 
 #### from udemy lesson
-* kafka create single partition per topic default.
 
-*  ProducerConfig values: 
-    - acks = 1
+* kafka create single partition per topic default.
+* ProducerConfig values
+  * acks = 1

@@ -9,17 +9,17 @@ northwind sample database'i [bu repo](https://github.com/dalers/mywind.git)'dan 
 Some of The Most Important SQL Commands
 
 * `SELECT` - extracts data from a database.  mantiksal isleme sirasi;
-    - FROM
-    - ON
-    - JOIN
-    - WHERE
-    - GROUP BY
-    - WITH CUBE or WITH ROLLUP
-    - HAVING
-    - SELECT
-    - DISTINCT
-    - ORDER BY
-    - TOP
+  * FROM
+  * ON
+  * JOIN
+  * WHERE
+  * GROUP BY
+  * WITH CUBE or WITH ROLLUP
+  * HAVING
+  * SELECT
+  * DISTINCT
+  * ORDER BY
+  * TOP
 
 `HAVING` - Gruplanan ya da hesaplanan alanlarin sinirlanmasi icin kullanilan
 bir kisimdir. WHERE kismi ile karistirilmamasi gerekir.
@@ -246,16 +246,17 @@ and 2.kolon_2 in (
 ...
 );
 ```
+
 2 tablonun birbirine JOIN komutu ile baglanmasinda INNER, OUTER, CROSS olmak
 uzere 3 farkli secenek bulunmaktadir.
+
 * INNER: her 2 tablonun da eslesen alanlarinin secilmesi saglanir. (Kesisim
 kumesi)
-* OUTER: 
+* OUTER:
 
 Tablolarin birbirine baglanmasi iliskili alanin eslenerek baglanan tabloda
 karsiliginin aranmasi icin kullanilir. Veri birlestirme ise, birbiri ile *ayni
 sayida ve turde*  alanlari olan veri kumelerinin alt alta birlestirilmesi,
 kesisim kumelerinin ve farklarinin bulunmasi islemidir.
 
-
-
+##### Regex on PL/SQL
