@@ -49,7 +49,7 @@ rvm gemset use proje_adi
 rvm use 2.7.0@proje_adi
 ```
 
-### Vim 
+### Vim
 
 * Yankstack
 * vim-yaml-folds
