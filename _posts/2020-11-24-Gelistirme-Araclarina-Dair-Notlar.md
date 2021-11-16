@@ -147,19 +147,21 @@ memory=1GB
 
 #### vscode
 
-* command palette: `ctrl-shift-p`
-* set language mode: `ctrl-k-m`
+* Command palette: `ctrl-shift-p`
+* Set language mode: `ctrl-k-m`
 * zen mode: `ctrl-k-z`
 * paste image: `Ctrl+Alt+V`
-* markdown preview: `Ctrl+Shift+V`
-* markdown preview side: `Ctrl-k V`
+* Markdown preview: `Ctrl+Shift+V`
+* Markdown preview side: `Ctrl-k V`
 * Sekmeleri coklu satirda goruntuleme: `workbench.editor.wrapTabs`
 * Convert Ascii to Turkish Characters `ctrl+alt+d`
 * Fuzzy file opener: `Ctrl-p`
 * Fuzzy search: `Ctrl-Shift-P`
-* Satir bosluk birakma `<br/><br/>`
-* Yorum ekleme `[//]: # ()`
+* Satir bosluk birakma: `<br/><br/>`
+* Yorum ekleme: `[//]: # ()`
 * Bulundugun dizine yeni tab ekleme: `Ctrl-Alt-N`
+* Markdown table generate etme: `Alt+Shift+t`
+* Markdown table rearrange: `Alt+Shift+f`
 
 #### Git
 
