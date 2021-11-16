@@ -109,6 +109,17 @@ Continuum icin systemd service'i yazmak lazim, bu konuya calisacagim.
 [Systemd automatic start for tmux
 ](https://github.com/tmux-plugins/tmux-continuum/blob/master/docs/systemd_details.md)
 
+#### cfssl
+
+* sign             signs a certificate
+* bundle           build a certificate bundle
+* genkey           generate a private key and a certificate request
+* gencert          generate a private key and a certificate
+* serve            start the API server
+* version          prints out the current version
+* selfsign         generates a self-signed certificate
+* print-defaults   print default configurations
+
 ### Windows
 
 * coklu monitorle calisirken tek monitorden ss alma: `ctrl+alt+prntscrn`
@@ -148,6 +159,7 @@ memory=1GB
 * Fuzzy search: `Ctrl-Shift-P`
 * Satir bosluk birakma `<br/><br/>`
 * Yorum ekleme `[//]: # ()`
+* Bulundugun dizine yeni tab ekleme: `Ctrl-Alt-N`
 
 #### Git
 

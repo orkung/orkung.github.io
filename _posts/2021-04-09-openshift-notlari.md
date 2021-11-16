@@ -1,5 +1,5 @@
 ---
-title: "Openshift Notları"
+title: "Kubernetes & Openshift Notları"
 layout: post
 ---
 
@@ -57,3 +57,21 @@ avoiding them getting killed by the kubelet before they are up and running.
 * HPA tanimlanmasi resource quota'dan yemiyor.
 
 #### ImageStreamTag
+
+#### Annotations
+
+* fields managed by a declarative configuraton layer. Attaching these fields as annotations distinguishes them from default values set by clients or servers, and from auto-generated fields and fields set by auto-sizing or auto-scaling systems.
+
+### Using ConfigMaps as files from a Pod
+
+4 different ways that you can use a ConfigMap
+
+1. Inside a container command and args
+2. Environment variables for a container
+3. Add a file in read-only volume, for the application to read
+4. Write code to run the pod that uses Kubernetes API to read a ConfigMap
+
+#### serviceAccount
+
+* it is for process whihc run in pods.
+* are namespaced
