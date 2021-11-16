@@ -23,9 +23,9 @@ $ oc policy add-role-to-user view system:serviceaccount:top-secret:robot
 
 [//]: # (#### Metrics deployment)
 [//]: # (```ansible ansible-playbook [-i </path/to/inventory>]
-<OPENSHIFT_ANSIBLE_DIR>/playbooks/openshift-metrics/config.yml -e
-openshift_metrics_install_metrics=True -e
-openshift_metrics_hawkular_hostname=hawkular-metrics.example.com```)
+[//]: # <OPENSHIFT_ANSIBLE_DIR>/playbooks/openshift-metrics/config.yml -e
+[//]: # openshift_metrics_install_metrics=True -e
+[//]: # openshift_metrics_hawkular_hostname=hawkular-metrics.example.com```)
 
 [//]: # (### Setting limit ranges)
 
