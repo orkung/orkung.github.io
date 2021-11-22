@@ -1,19 +1,21 @@
 ---
-title:"Jenkins Notlari"
+title: "Jenkins Notları"
 layout: post
 comments: true
 ---
 
 #### installation
-* Ansible rolu arastir.
+
 * Nasil master-slave kurulum yapilir?
 [Redhat](http://mirrors.jenkins.io/redhat-stable)
+
 #### Kurulum Sonrasi Yapilacaklar
+
 * /var/lib/jenkins /Product'a tasinacak
 * Hangi Java Kurulacagina karar ver 
 
 [//]: # (
-#### Recommended plugins
+Recommended plugins
 Folders
 OWASP Markup Formatter
 Build
@@ -49,6 +51,7 @@ Mailer)
 * [pipeline syntax](http://192.168.122.234:8080/pipeline-syntax/)
 
 #### Pipeline
+
 Pipeline provides an extensible set of tools for modeling simple-to-complex
 delivery pipelines "as code" via the Pipeline domain-specific language (DSL)
 syntax.
@@ -58,15 +61,14 @@ Declarative Pipeline provides richer syntactical features over Scripted
 Pipeline syntax, and is designed to make writing and reading Pipeline code
 easier.
 
-
-Genel Kaynaklar
+#### Genel Kaynaklar
 *  [Jenkins community wiki eklenecek](https://wiki.jenkins.io/display/JENKINS/)
 
 * Pipeline concepts
 [pipeline book](https://www.jenkins.io/doc/book/pipeline/syntax/#agent)
 [pipeline examples](https://www.jenkins.io/doc/pipeline/examples/)
 
-[//]: # Using  Jenkinsfile
+[//]: # (Using  Jenkinsfile)
 
 ### Maintaining Jenkins
 
@@ -133,4 +135,4 @@ it's better to keep scripts in one place, and then run them remotely through
 the nodes. Consider placing your scripts under the master jenkins home
 directory.
 
-**Scriptler Plugin**
+[//]: # (**Scriptler Plugin**)

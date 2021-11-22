@@ -162,6 +162,7 @@ memory=1GB
 * Bulundugun dizine yeni tab ekleme: `Ctrl-Alt-N`
 * Markdown table generate etme: `Alt+Shift+t`
 * Markdown table rearrange: `Alt+Shift+f`
+* git push: `Ctrl+Alt+l`
 
 #### Git
 
