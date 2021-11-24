@@ -75,3 +75,6 @@ avoiding them getting killed by the kubelet before they are up and running.
 
 * it is for process whihc run in pods.
 * are namespaced
+
+#### Kubelet Configuration
+

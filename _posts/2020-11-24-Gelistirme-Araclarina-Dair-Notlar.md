@@ -155,14 +155,19 @@ memory=1GB
 * Markdown preview side: `Ctrl-k V`
 * Sekmeleri coklu satirda goruntuleme: `workbench.editor.wrapTabs`
 * Convert Ascii to Turkish Characters `ctrl+alt+d`
+* Fuzzy file search : `Ctrl-Shift-f`
 * Fuzzy file opener: `Ctrl-p`
-* Fuzzy search: `Ctrl-Shift-P`
-* Satir bosluk birakma: `<br/><br/>`
-* Yorum ekleme: `[//]: # ()`
+* Command line : `Ctrl-Shift-P`
+* Markdown Satir bosluk birakma: `<br/><br/>`
+* Markdown yorum ekleme: `[//]: # ()`
 * Bulundugun dizine yeni tab ekleme: `Ctrl-Alt-N`
 * Markdown table generate etme: `Alt+Shift+t`
 * Markdown table rearrange: `Alt+Shift+f`
 * git push: `Ctrl+Alt+l`
+* editor tab zoom: `Alt+Shift+m`
+* editor split horizontal file: `Ctrl-\`
+* editor split vertical file: `Ctrl-k Ctrl'\`
+* bulundugun dizinde yeni dosya acma: `Ctrl-Alt-n`
 
 #### Git
 
