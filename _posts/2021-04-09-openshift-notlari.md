@@ -31,26 +31,17 @@ $ oc policy add-role-to-user view system:serviceaccount:top-secret:robot
 
 ### Requests and limits
 
-when you specify a resource *request* for containers in a pod, the scheduler
-uses this information to decide which node to place thep pod on
-(pod'daki konteyner icin resource request yaptiginda, scheduler bu bilgiyi, pod'u hangi
-node'da ayaga kaldiracagina karar vermek icin kullanir.)
+when you specify a resource *request* for containers in a pod, the scheduler uses this information to decide which node to place thep pod on (pod'daki konteyner icin resource request yaptiginda, scheduler bu bilgiyi, pod'u hangi node'da ayaga kaldiracagina karar vermek icin kullanir.)
 
-the kubelet also reserves at least the  *request* amount of that system
-resource specifically fot that container to use. (kubelet en az request edilen kadar
-kaynagi konteyner icin rezerve eder.)
+the kubelet also reserves at least the  *request* amount of that system resource specifically fot that container to use. (kubelet en az request edilen kadar kaynagi konteyner icin rezerve eder.)
+
+
 
 ### Configure Liveness, Readiness and Startup Probes
 
-The kubelet uses liveness probes to know when to restart a container.
-The kubelet uses Readiness probes to know when a container is ready to start
-accepting traffic... One use of this signal is to control which pods are used
-as backends for Services. When a pod is not ready, it's removed from Service
-load balancers.
+The kubelet uses liveness probes to know when to restart a container.  The kubelet uses Readiness probes to know when a container is ready to start accepting traffic... One use of this signal is to control which pods are used as backends for Services. When a pod is not ready, it's removed from Service load balancers.
 
-The kubelet uses startup probes to know when a container application has
-started. This can be used to adopt liveness checks on slow starting containers,
-avoiding them getting killed by the kubelet before they are up and running.
+The kubelet uses startup probes to know when a container application has started. This can be used to adopt liveness checks on slow starting containers, avoiding them getting killed by the kubelet before they are up and running.
 
 #### Notlar
 
@@ -76,5 +67,10 @@ avoiding them getting killed by the kubelet before they are up and running.
 * it is for process whihc run in pods.
 * are namespaced
 
-#### Kubelet Configuration
+[//]: # (Kubelet Konfigürasyon)
 
+##### HPA 
+
+* Resource requests should be close to the average usage of the pods.
+
+[//]: # (task: metric server'dan average usage'i cek)
