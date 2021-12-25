@@ -6,15 +6,15 @@ layout: post
 kafka is a distributed, partitioned, replicated commit log service. it provides
 the functionality of a messaging system, but with a unique design.
 
-* kafka maintains feed of messages in categories called `topics`
-* we'll call processes that publish messages to a kafka topic `producers`
-* we'll call processes that subscribe to topics and process the feed of
+- kafka maintains feed of messages in categories called `topics`
+- we'll call processes that publish messages to a kafka topic `producers`
+- we'll call processes that subscribe to topics and process the feed of
   published messages `consumers`
 
-* kafka is run as a cluster comprised of one or more servers each of which is
+- kafka is run as a cluster comprised of one or more servers each of which is
   called a `broker`
 
-kafka mesaj feed'lerini `topic` adindaki kategorilerde tutar. 
+kafka mesaj feed'lerini `topic` adindaki kategorilerde tutar.
 mesajlarin bir kafka topic'ine yayinlanasi `producer`'larla saglanir.
 topic'lere abone olan ve topic'lere yayinlanan mesajlari isleyen servislere
 `consumer` denir.
@@ -25,7 +25,7 @@ cluster which in turn serves them up to consumers like this;
 
 ![Kafka_1](/assets/img/producer_consumer.png)
 
-A `topic` is a category or a feed name to which messages are published. 
+A `topic` is a category or a feed name to which messages are published.
 
 The messages in the partitions are each assigned a sequental id number called the
 `offset` that uniquely identifies each message within the partition.
@@ -43,6 +43,7 @@ can come and go without much impact on the cluster or on the other consumers.
 [//]: # C:\Users\Kafein\Documents\is\files\docs_works\defect_acma
 
 #### Distribution
+
 the partitions of the log are distributed over the servers in the kafka cluster
 with each server handling data and requests for a share of the paritions. Each
 parititon is replicated across a configurable number of servers for fault
@@ -56,7 +57,7 @@ others so load is well balanced within the cluster.
 #### Producers
 producer publish data to topics of their choice. the producer is responsible of
 choosing which to assign to which partition within the topic. In other
-publish/subscribe systems, these may be called *publishers* or *writers*.
+publish/subscribe systems, these may be called -publishers- or -writers-.
 
 #### Consumers
 messaging tradionally has two models; queuing and publish-subscribe
@@ -71,15 +72,15 @@ subscribing consumer group. Consumer instances can be in seperate processes or
 on seperate machines.
 
 Consumers read messages. In other publish/subscribe systems, these clients may
-be called *subscribers* or *readers*
+be called -subscribers- or -readers-
 
 #### Broker
-Kafka brokers are designed to operate as part of a *cluster*. Within a cluster
-of brokers, one broker will also function as the cluster *controller* (elected
+Kafka brokers are designed to operate as part of a -cluster-. Within a cluster
+of brokers, one broker will also function as the cluster -controller- (elected
 automatically from the live members of the cluster). The controller is
 responsible for administrative operations, including assigning partitions to
 brokers and monitoring for broker failures. A partition is owned by a single
-broker in the cluster, and that broker called the *leader* of the partition. A
+broker in the cluster, and that broker called the -leader- of the partition. A
 partition may be assigned to multiple brokers, which will result in the
 partition being replicated (as seen in Figure 1-7). This provides redundancy of
 messages in the partition, such that another broker can take over leadership if
@@ -101,15 +102,15 @@ there is a broker failure.
 [ayaga_kaldirma](https://wurstmeister.github.io/kafka-docker)
 
 ### Kafka: The Definitive Guide Notes (Oreilly book)
-*Publish/subscribe messaging* is a pattern that is characterized by the sender
+-Publish/subscribe messaging- is a pattern that is characterized by the sender
 (publisher) of a piece of data (message) not specifically directing it to a
 receiver (subscriber) subscribes to receive certain classes of  messages.
 
 Kafka often described as a "distributed commit log" or more recently as a
 "distributing streaming platform."
 
-the unit of data within Kafka is called a *message*.
-the term *stream* is often used when discussing data within systems like Kafka.
+the unit of data within Kafka is called a -message-.
+the term -stream- is often used when discussing data within systems like Kafka.
 Most often, a stream is considered to be a single topic of data
 
 the replication mechanisms within the Kafka clusters are designed only to work
@@ -118,7 +119,6 @@ wihin a single cluster, not between multiple clusters.
 Kafka producers: Writing messages to Kafka.
 you will always use Kafka by writing a producer that writes data to kafka, a
 consumer that reads data from kafka, or an application that servers both roles.
- 
 a producer object can be used by multiple threads to send messages.
 
 #### Partitions
@@ -126,14 +126,15 @@ a producer object can be used by multiple threads to send messages.
 kafka messages are key-value pairs and while it's possible to create a
 ProducerRecord with just a topic and a value, with the key set to null by
 default, most applications produce records with keys. Keys serve two goals:
-* they are additional information that gets stored with the message
-* they are also used to decide which one of the topic partitions the message
+
+- they are additional information that gets stored with the message
+- they are also used to decide which one of the topic partitions the message
   will be written to. All messages with the same key will go to the same
   partition. This means that if a process is reading only a subset of the
   partitions in a topic, all records for a single key will be ready by the same
-  process. 
+  process.
 
-#### Consumer Concepts 
+#### Consumer Concepts
 
 kafka consumers are typically part of a consumer group. the main way we scale
 data consumption from a kafka topic is by adding more consumers to a group.
@@ -142,11 +143,11 @@ allows adding more consumers when the load increases.
 
 #### ZooKeeper is used for
 
-* controller election
-* cluster membership
-* topic configuration
-* access control
-* lists, and quotas.
+- controller election
+- cluster membership
+- topic configuration
+- access control
+- lists, and quotas.
 
 Kafka utilizes ZooKeeper for storing metadata information about the brokers,
 topics and partitions. Writes to ZooKeeper are only performed on changes to the
@@ -158,6 +159,28 @@ members of consumer groups or on changes to Kafka cluster itself.
 
 #### from udemy lesson
 
-* kafka create single partition per topic default.
-* ProducerConfig values
-  * acks = 1
+- kafka create single partition per topic default.
+- ProducerConfig values
+  - acks = 1
+
+##### Hands-Free Kafka Replication: A Lesson in Operational Simplicity
+
+every partition in a kafka topic has a write-ahed log where the messages are stored and every message has a unique offset that identifies its position in the partition's log.
+
+every topic partition in kafka is replicated n times, where n is the replication factor of the topic.
+
+#### Choosing Right Partition Count & Replication Factor (Apache Kafka)
+
+- partitions count, replication factor
+  - partitions per topic: (num of broker x2 if n<6)
+
+vaf'ta 80'i al 443'e at diyor
+auth.vodafone.com.tr servisi var onunla entegre ederlerse arringmant'a ihtiyacimiz var mi
+enrichment
+mobilodeme'nin 80'ini kapatiyor. kapatabilirsin
+firmalarla iletisime gecmek lazim. http gondermeyin, yaptik dediklerinde keseriz.
+
+arkadaki uygulama kapex'i desteklemiyor. canlida da aynisi
+standalone jar calisiyor.
+
+%10 mu vs?

@@ -4,6 +4,8 @@ layout: post
 comments: true
 ---
 
+- vm olusturma
+
 ```bash
 virt-install                  \
     --connect qemu:///system  \
