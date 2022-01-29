@@ -19,7 +19,8 @@ Kısayolları custom oluşturduğumdan arada bir derli toplu iyi fikir, tabi bun
 * Fuzzy file opener: `Ctrl-p`
 * Command line : `Ctrl-Shift-P`
 * Markdown Satir bosluk birakma: `<br/><br/>`
-* Markdown yorum ekleme: `[//]: # ()`
+* Markdown yorum ekleme: `gcc`
+<!-- * Markdown yorum ekleme: `[//]: # ()` -->
 * Bulundugun dizine yeni tab ekleme: `Ctrl-Alt-N`
 * Markdown table generate etme: `Alt+Shift+t`
 * Markdown table rearrange: `Alt+Shift+f`
