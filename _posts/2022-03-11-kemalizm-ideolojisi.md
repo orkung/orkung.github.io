@@ -1,10 +1,9 @@
 ---
-title: "mekan ve sermaye bağlaminda kemali̇zm i̇deoloji̇si̇"
+title: "kemali̇zm i̇deoloji̇si̇"
 layout: post
 ---
 
-MEKAN VE SERMAYE BAĞLAMINDA KEMALİZM İDEOLOJİSİ
-MUTLUHAN İZMİR
+## MEKAN VE SERMAYE BAĞLAMINDA KEMALİZM İDEOLOJİSİ
 
 İdeoloji nedir sorusunu doğru biçimde açabilmek için, ideoloji ve mekânı bir
 arada ele almak gerekir. İdeoloji ile mekân, üretim ilişkileri bağlamında
