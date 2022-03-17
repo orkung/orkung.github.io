@@ -39,8 +39,10 @@ Düşünsel olarak, herhangi bir tabum yok. faydalı buldugum her fikre açığ�
 Pratik ve pragmatik biri olmaya çalışıyorum; sanat için sanat, bilim için
 bilim, felsefe için felsefe yapılması bana faydalı gelmiyor; hepsinin gezegen
 yararına sunulmasını, öncelikli ihtiyaçlarımızı dönüştürmek için kullanılmasını
-savunuyorum. 
+savunuyorum.
 
 Burada kişisel fikirlerimi yayınlamayı düşünmüyorum. Mesleki sayılacak ilgilere
 odaklanacağım, kişisel fikirlerimi takip etmek isterseniz [Evrenle
 Dans](safruhani.wordpress.com) günlüğüme bakabilirsiniz.
+
+Not: Bu notu dikkate almayiniz.
