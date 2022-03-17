@@ -45,4 +45,3 @@ Burada kişisel fikirlerimi yayınlamayı düşünmüyorum. Mesleki sayılacak i
 odaklanacağım, kişisel fikirlerimi takip etmek isterseniz [Evrenle
 Dans](safruhani.wordpress.com) günlüğüme bakabilirsiniz.
 
-Not: Bu notu dikkate almayiniz.
