@@ -32,4 +32,3 @@ layout: page
 * [ ] Fatih'in onerdigi yatirim fonu almaya basla @high  #78f31777
 
 ## English
-* bir hos seda imis
