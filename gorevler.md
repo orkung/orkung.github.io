@@ -4,7 +4,7 @@ permalink: "/gorevler/"
 layout: page
 ---
 
-# Daily
+## Daily
 
 * [ ] Kindle'dan ingilizce metin oku ve bir sayfaya yaz.
 * [ ] 1 Ted vidyosu izle ve onun hakkinda web sitende yazi yaz.
@@ -14,7 +14,7 @@ layout: page
 * [ ] cv hazirlamak icin resumake ve alternatif tool'lari incele @low
 * [ ] azure bulut haftasi son tarih 30 haziran @high
 
-### Comp
+## Comp
 
 * [ ] bu sayfayi gist'te tut, eger vscode ile gist update edebiliyorsan, yoksa git repo ac. @high
 * [ ] kafka calismasini blogla
@@ -23,12 +23,12 @@ layout: page
 * [ ] Domain'ini tasi @low
 * [ ] rsshub duzenlemeleri @high
 
-#### Misc
+## Misc
 
 * [ ] Tohumlarin ayrilip filizlendirilmesi
 
-##### Budget
+## Budget
 
 * [ ] Fatih'in onerdigi yatirim fonu almaya basla @high
 
-###### English
+## English
