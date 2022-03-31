@@ -22,7 +22,7 @@ Kısayolları custom oluşturduğumdan arada bir derli toplu iyi fikir, tabi bun
 * Markdown yorum ekleme: `gcc`
 * Markdown toggle bold: `Ctrl+Alt+b`
 * Markdown toggle italic: `Ctrl+Alt+i`
-<!-- * Markdown yorum ekleme: `[//]: # ()` -->
+* Markdown yorum ekleme: `[//]: # ()` `<!-- -->`
 * Bulundugun dizine yeni tab ekleme: `Ctrl-Alt-N`
 * Markdown table generate etme: `Alt+Shift+t`
 * Markdown table rearrange: `Alt+Shift+f`
@@ -33,5 +33,6 @@ Kısayolları custom oluşturduğumdan arada bir derli toplu iyi fikir, tabi bun
 * bulundugun dizinde yeni dosya acma: `Ctrl-Alt-n`
 * toggle activity bar: `Ctrl-Alt-;`
 * Sonraki terminale gecme: `ctrl+shift+]`
+* timestamp ekleme: `ctrl+shift+I`
 
 [kaynak](https://github.com/yzhang-gh/vscode-markdown#keyboard-shortcuts-1)

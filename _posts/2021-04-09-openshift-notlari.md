@@ -96,5 +96,3 @@ The kubelet uses startup probes to know when a container application has started
 * Resource requests should be close to the average usage of the pods.
 
 [//]: # (task: metric server'dan average usage'i cek)
-
-Bu notu dikkate almayin
