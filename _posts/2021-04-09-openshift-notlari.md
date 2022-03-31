@@ -3,9 +3,21 @@ title: "Kubernetes & Openshift Notları"
 layout: post
 ---
 
-Deployment'ta configmap'ten bir dosyayi okurken asagidaki hatayi verirse:
+```bash
+oc get po -o custom-columns=NAME:.spec.containers[0].name,NODE:.spec.nodeName,POD_IP:.status.podIP,HOST_IP:.status.hostIP
+NAME        NODE        POD_IP        HOST_IP
+golang-ex   compute-1   10.128.2.15   192.168.50.14
+NAME      NODE     POD_IP         HOST_IP
+adminer   <none>   100.127.9.78   172.31.227.26
+```
+
+Project Egress IP: 172.31.
+
+## Workarounds
+
+Deployment'ta configmap'ten bir dosyayi okurken asagidaki hatayi verirse aktif policy'lere bakilir:
+
 `Forbidden! Configured service account doesn't have access. Service account may have been revoked. configmaps "example" is forbidden: User "system:serviceaccount:\<proje_adi\>:\<kullanici_adi\>" cannot get resource "configmaps" in API group`
-aktif policy'lere bakilir
 
 ```bash
 oc policy who-can create pod
@@ -21,21 +33,31 @@ kubectl create rolebinding default-sa-view \
 $ oc policy add-role-to-user view system:serviceaccount:top-secret:robot
 ```
 
-[//]: # (#### Metrics deployment)
+## CRC
+
+* node'a login olma:
+
+```bash
+ssh -i ~/.crc/machines/crc/id_rsa core@"$(crc ip)"
+Red Hat Enterprise Linux CoreOS 49.84.202112162103-0
+  Part of OpenShift 4.9, RHCOS is a Kubernetes native operating system
+  managed by the Machine Config Operator (`clusteroperator/machine-config`).
+```
+
+<!-- [//]: # (#### Metrics deployment) -->
 [//]: # (```ansible ansible-playbook [-i </path/to/inventory>]
 [//]: # <OPENSHIFT_ANSIBLE_DIR>/playbooks/openshift-metrics/config.yml -e
 [//]: # openshift_metrics_install_metrics=True -e
 [//]: # openshift_metrics_hawkular_hostname=hawkular-metrics.example.com```)
-
 [//]: # (### Setting limit ranges)
+
+## Docs
 
 ### Requests and limits
 
 when you specify a resource *request* for containers in a pod, the scheduler uses this information to decide which node to place thep pod on (pod'daki konteyner icin resource request yaptiginda, scheduler bu bilgiyi, pod'u hangi node'da ayaga kaldiracagina karar vermek icin kullanir.)
 
 the kubelet also reserves at least the  *request* amount of that system resource specifically fot that container to use. (kubelet en az request edilen kadar kaynagi konteyner icin rezerve eder.)
-
-
 
 ### Configure Liveness, Readiness and Startup Probes
 
@@ -69,8 +91,10 @@ The kubelet uses startup probes to know when a container application has started
 
 [//]: # (Kubelet Konfigürasyon)
 
-##### HPA 
+##### HPA
 
 * Resource requests should be close to the average usage of the pods.
 
 [//]: # (task: metric server'dan average usage'i cek)
+
+Bu notu dikkate almayin
