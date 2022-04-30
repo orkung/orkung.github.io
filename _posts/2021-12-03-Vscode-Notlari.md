@@ -26,7 +26,7 @@ Kısayolları custom oluşturduğumdan arada bir derli toplu iyi fikir, tabi bun
 * Bulundugun dizine yeni tab ekleme: `Ctrl-Alt-N`
 * Markdown table generate etme: `Alt+Shift+t`
 * Markdown table rearrange: `Alt+Shift+f`
-* git push: `Ctrl+Alt+l`
+* git push: `Ctrl+Alt+p`
 * editor tab zoom: `Alt+Shift+m`
 * editor split horizontal file: `Ctrl-\`
 * editor split vertical file: `Ctrl-k Ctrl'\`
