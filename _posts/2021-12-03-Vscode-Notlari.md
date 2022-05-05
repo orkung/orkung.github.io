@@ -34,5 +34,6 @@ Kısayolları custom oluşturduğumdan arada bir derli toplu iyi fikir, tabi bun
 * toggle activity bar: `Ctrl-Alt-;`
 * Sonraki terminale gecme: `ctrl+shift+]`
 * timestamp ekleme: `ctrl+shift+I`
+* Theme switcher: `ctrl+alt+t`
 
 [kaynak](https://github.com/yzhang-gh/vscode-markdown#keyboard-shortcuts-1)
