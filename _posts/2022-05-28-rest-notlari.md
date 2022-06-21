@@ -27,4 +27,17 @@ ulasabiliriz? REST client kutuphaneleri bu noktada yardimci oluyor; form iceren
 bir web sayfasi hazirlayacagiz, 2 numara girebilecegin ve sonucu gorebilecegin
 bir form olacak.
 
-* kaynak: [freecodecamp](https://www.freecodecamp.org/news/rest-api-tutorial-rest-client-rest-service-and-api-calls-explained-with-code-examples/)
+Express alows us to add middlewares like body-parser to our application whith
+the use method. you'll hear the term middleware a lot when dealing with Express.
+These things are basically plugins that change the request or response object
+before they get handled by our application.
+
+The urlencoded method within body-parser tells body-parser to extract data from
+the <form> element and add them to the body property in the request object.
+
+now, you should be able to see everythin in the form field within the req.body object.
+
+#### kaynaklar
+
+* [freecodecamp](https://www.freecodecamp.org/news/rest-api-tutorial-rest-client-rest-service-and-api-calls-explained-with-code-examples/)
+* [freecodecamp](https://www.freecodecamp.org/news/building-a-simple-crud-application-with-express-and-mongodb-63f80f3eb1cd/)
