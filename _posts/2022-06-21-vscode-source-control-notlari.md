@@ -10,3 +10,4 @@ Bazi islemleri terminalden yapmaktansa vscode command palette'ten yapmak kolayli
 ## kaynaklar
 
 [resmi site](https://code.visualstudio.com/docs/editor/versioncontrol)
+[Using Git with Visual Studio Code](https://www.youtube.com/watch?v=i_23KUAEtUM)
