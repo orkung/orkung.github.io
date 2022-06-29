@@ -35,5 +35,11 @@ Kısayolları custom oluşturduğumdan arada bir derli toplu iyi fikir, tabi bun
 * Sonraki terminale gecme: `ctrl+shift+]`
 * timestamp ekleme: `ctrl+shift+I`
 * Theme switcher: `ctrl+alt+t`
+* Source Control: `ctr+shift+g`
+* Explorer: `ctr+shift+e`
 
 [kaynak](https://github.com/yzhang-gh/vscode-markdown#keyboard-shortcuts-1)
+
+## Diger kisayollar
+
+Carnac toggle: `ctrl+alt+p`
