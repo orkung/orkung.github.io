@@ -43,3 +43,5 @@ Kısayolları custom oluşturduğumdan arada bir derli toplu iyi fikir, tabi bun
 ## Diger kisayollar
 
 Carnac toggle: `ctrl+alt+p`
+
+* Windows sync patch: C:\Users\<username>\AppData\Roaming\Code\User\sync\settings
