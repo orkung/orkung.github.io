@@ -1,15 +1,12 @@
 ---
-title: "Kitap Notları"
-permalink: "/kitap_notlari/"
-layout: page
+title: "Pürdikkat"
+layout: kitap
 ---
 
-## pür dikkat
-
-dikkatinizi nasıl toplar ve hayatınızın kontrolünü elinize alırsınız?
+Dikkatinizi nasıl toplar ve hayatınızın kontrolünü elinize alırsınız?
 Bir Eyal & Julie Li
 
-### 1 Sizin Süpergücünüz hangisi?
+## 1 Sizin Süpergücünüz hangisi?
 
 S:16 pür dikkat olmakta;
 
@@ -20,12 +17,12 @@ S:16 pür dikkat olmakta;
 
 ### 2 pür dikkat olmak
 
-![Dikkat Dağıtıcılar vs Cekiciler](bolum_2.png)
+![Dikkat Dağıtıcılar vs Cekiciler](/assets/img/bolum_2.png)
 
 Sağ taraftaki süreç dikkat çekicilerdir. hayattan beklentilerimize bizi çeken davranışları dikkat çekiciler olarak düşünebiliriz. sol tarafta dikkat dağıtıcılar yer alır. dikkat çekicilerin tam tersidir. dikkat dağıtıcılar bize hayallerimize yaklaşmaktan alıkoyar. ister ilgilendiklerimiz ister dikkat dağıtıcılar tarafına yönelik olsun, bütün davranışlarımız içsel ve dışsal tetikleyiciler tarafından teşvik edilir.
 S:21 İster içsel ister dışsal bir tetikleyici sebebiyle olmuş olsun, ortaya çıkan eylem daha büyük amaçlarımıza  (dikkatli çekiciler) uyumludur ya da değildir (dikkat dağıtıcılar).
 
-![Pürdikkat Modeli](Resim2.jpg)
+![Pürdikkat Modeli](/assets/img/Resim2.jpg)
 
 S:23 ihtiyacımız olduğunu sandığımız, aslında ihtiyacımız olmayan şeylere ulaşmaya zorlanıyoruz. ne kadar mecbur hissedersek hissedelim, e-postamızı hemen o dakika kontrol etmeye veya son dakika haberlerini görmeye ihtiyacımız yoktur. dikkat dağıtıcılar her zaman mevcut olacak; onları yönetmek ise bizim .
 
@@ -56,7 +53,7 @@ S:38 **Dört psikolojik faktör, memnuniyeti geçici kılar.**
 
 ***tatminsizlik ve huzursuzluk beynimizin mevcut durumuna hükmeder fakat bunları, bizi yenmelerindense motive etmeleri için kullanabiliriz.***
 
-S:42 ***Kötü hissetmenin yanlış olmadığını blmek güzeldir; aslında güçlü olan hayatta kalır ile kastedilen tam da budur.***
+S:42 ***Kötü hissetmenin yanlış olmadığını bilmek güzeldir; aslında güçlü olan hayatta kalır ile kastedilen tam da budur.***
 Kabullenme gerçekleştikten sonra ruhumuzun tuazaklarına karşı koyma şansı buluruz. Acıyı tanıyabilir ve üstesinden gelebiliriz ki bu da "purdikkat" olma yolundaki ilk adımdır.
 
 ### 5 İçten gelen dikkat dağıtıcılarla başa çıkma
@@ -68,14 +65,13 @@ S:44 ilk 5 dakikada bir düşünceyi bastırmanın, daha sonra zihinde çok daha
 dürtülerle savaşmak yerinen, davetsiz düşünceleri ele alacak yeni yöntemlere ihtiyacımız var;
 
 1) *içsel tetikleyiciye odaklanarak dikkatin dağılmasının ardındaki Huzursuzluğu arayın* Örneğin; araştırma yapma bahanesiyle dikkatin dağılmasının ardındaki içsel tetikleyici zor bir işten kaçma isteği olabilir.
-2) *tetikleyiciyi yazin*: yukaridaki davranisin farkina varir varmaz tetikleyiciyi, nasil hissettiginizi, tarihi not edin.
-sanki bir gozlemciymissiniz gibi kendinizle durtuyu tartismanizi, kendinize; 'su anda gogsumde bir gerginlik hissediyorum. iste, iphone'uma ulasmaya calisiyorum' gibi seyleri soylemenizi onerir.
-3) *duyumlarinizi kesfedin*: Duyumu merak edin; ornegin tam dikkatiniz dagilmak uzereyken parmaklariniz titriyor mu? Akliniza eseni yapmadan once duyguyla basbasa kalin.
-Aslinda yapmak istemediginiz seyi yapma yonundeki rahatsizlik verici icsel tetikleyiciyi hissettiginizde "sakince akan bir derenin kenarinda oldugunuzu hayal edin, sonra derede suruklenen yapraklari hayal edin. Aklinizdaki her bir dusunceyi bir yapragin ustune koyun. Bu bir hatira, bir kelime, endise veya bir goruntu olabilir. Siz oturup yalnizca izlerken, butun bu yapraklarin dere boyunca suruklenmesine izin verin.
-4) *esik noktalarin farkina varin*: esik noktalari gun boyunca bir seyden baska bir seye gecis yaptigimiz anlardir. Ornegin bir toplantidan digerine giderken sosyal medya uygulamasina bakmaya baslayip masaniza gectiginizde de uygulamaya bakmaya devam etmek... Burada tehlikeli olan sey eylemin kendisi degil, 'sadece birkac saniyeligine' bunlari yapmaya baslayip yarim saat konu disina cikmak gibi daha sonra pisman olacaginiz seyleri yapma ihtimalidir.
-bu dikkat dagitici tuzagi ile basa etmek icin ozellikle etkili buldugum bir teknik; '10 dakika kurali'dir. yapacak daha iyi bir sey bulamadigimdan kendimi telefonumu kontrol etmek ister halde bulursam, kendime 'tamam olur ama simdi degil.' diyorum, 10 dakika beklemem gerekiyor. Bu kural, bazi psikologlarin 'durtu dalgasinda sorf yapma' dedikleri seyi yapmaya zaman tanir. bir durtu sizi ele gecirdiginde, duygulari fark etmek ve onlara bir dalgalara hakim olur gibi hakim olmak -ne uzaklastirarak ne de durtuye gore hareket ederek- duygular yatisana kadar onlarla bas etmenize yardimci olur.
+2) *tetikleyiciyi yazın*: yukarıdaki davranışın farkına varır varmaz tetikleyiciyi, nasıl hissettiğinizi, tarihi not edin.
+sanki bir gözlemciymişsiniz gibi kendinizle dürtüyü tartışmanızı, kendinize; 'şu anda göğsümde bir gerginlik hissediyorum. işte, iphone'uma ulaşmaya çalışıyorum' gibi şeyleri söylemenizi önerir.
+3) *duyumlarınızı keşfedin*: Duyumu merak edin; örneğin tam dikkatiniz dağılmak üzereyken parmaklarınız titriyor mu? Aklınıza eseni yapmadan önce duyguyla başbaşa kalın.
+Aslında yapmak istemediğiniz şeyi yapma yönündeki rahatsızlık verici içsel tetikleyiciyi hissettiğinizde "sakince akan bir derenin kenarında olduğunuzu hayal edin, sonra derede sürüklenen yaprakları hayal edin. Aklınızdaki her bir düşünceyi bir yaprağın üstüne koyun. Bu bir hatıra, bir kelime, endişe veya bir görüntü olabilir. Siz oturup yalnızca izlerken, bütün bu yaprakların dere boyunca sürüklenmesine izin verin.
+4) *eşik noktaların farkına varın*: eşik noktaları gün boyunca bir şeyden başka bir şeye geçiş yaptığımız anlardır. Örneğin bir toplantıdan diğerine giderken sosyal medya uygulamasına bakmaya başlayıp masanıza geçtiğinizde de uygulamaya bakmaya devam etmek... Burada tehlikeli olan şey eylemin kendisi değil, 'sadece birkaç saniyeliğine' bunları yapmaya başlayıp yarım saat konu dışına çıkmak gibi daha sonra pişman olacağınız şeyleri yapma ihtimalidir.
+bu dikkat dağıtıcı tuzağı ile başa etmek için özellikle etkili bulduğum bir teknik; '10 dakika kuralı'dır. yapacak daha iyi bir şey bulamadığımdan kendimi telefonumu kontrol etmek ister halde bulursam, kendime 'tamam olur ama şimdi değil.' diyorum, 10 dakika beklemem gerekiyor. Bu kural, bazı psikologların 'dürtü dalgasında sörf yapma' dedikleri şeyi yapmaya zaman tanır. bir dürtü sizi ele geçirdiğinde, duyguları fark etmek ve onlara bir dalgalara hakim olur gibi hakim olmak -ne uzaklaştırarak ne de dürtüye göre hareket ederek- duygular yatışana kadar onlarla baş etmenize yardımcı olur.
 
-### 7 Goreve zihninizde yeniden sekil verme
+### 7 Göreve zihninizde yeniden şekil verme
 
-S:53 oyun herhangi bir zor gorevin parcasi olabilir ve her zaman zevk vermese de bizi huzursuzluktan kurtarabilir -unutmayalim ki huzur, dikkat dagiticilarin ana bilesenidir.
-
+S:53 oyun herhangi bir zor görevin parçası olabilir ve her zaman zevk vermese de bizi huzursuzluktan kurtarabilir -unutmayalım ki huzur, dikkat dağıtıcıların ana bileşenidir.
