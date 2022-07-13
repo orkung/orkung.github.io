@@ -1,6 +1,6 @@
 ---
 layout: kitap
-title: "Pürdikkat"
+title: Purdikkat
 ---
 
 Dikkatinizi nasıl toplar ve hayatınızın kontrolünü elinize alırsınız?
