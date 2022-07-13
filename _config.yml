@@ -28,7 +28,7 @@ navigation:
   - {file: "index.html", icon: home}
   - {file: "hakkimda.md", icon: address-card}
   - {file: "faydali_linkler.md", icon: address-card}
-# - {file: "kitap_notlari.md"}
+  - {file: "cookies.html"}
 
 external:                    # see http://fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:cavit[at]orkun[dot]space"}
@@ -56,6 +56,7 @@ defaults:
       image: true
 
 collections:
-  kitap:
+  # kitap:
+  cookies:
     output: true
-    permalink: /kitap-notlari/:name
+    # permalink: /kitap-notlari/:name
