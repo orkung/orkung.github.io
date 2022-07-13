@@ -56,7 +56,7 @@ defaults:
       image: true
 
 collections:
-  kitaplar:
-  #cookies:
+   kitaplar:
     output: true
+  #cookies:
     # permalink: /kitap-notlari/:name
