@@ -1,6 +1,7 @@
 ---
 layout: kitap
 title: Purdikkat
+image_path: https://images-na.ssl-images-amazon.com/images/I/41eCTEeq94S._SY344_BO1,204,203,200_QL70_ML2_.jpg
 ---
 
 Dikkatinizi nasıl toplar ve hayatınızın kontrolünü elinize alırsınız?
