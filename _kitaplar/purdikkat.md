@@ -66,10 +66,13 @@ S:44 ilk 5 dakikada bir düşünceyi bastırmanın, daha sonra zihinde çok daha
 dürtülerle savaşmak yerinen, davetsiz düşünceleri ele alacak yeni yöntemlere ihtiyacımız var;
 
 1) *içsel tetikleyiciye odaklanarak dikkatin dağılmasının ardındaki Huzursuzluğu arayın* Örneğin; araştırma yapma bahanesiyle dikkatin dağılmasının ardındaki içsel tetikleyici zor bir işten kaçma isteği olabilir.
+
 2) *tetikleyiciyi yazın*: yukarıdaki davranışın farkına varır varmaz tetikleyiciyi, nasıl hissettiğinizi, tarihi not edin.
 sanki bir gözlemciymişsiniz gibi kendinizle dürtüyü tartışmanızı, kendinize; 'şu anda göğsümde bir gerginlik hissediyorum. işte, iphone'uma ulaşmaya çalışıyorum' gibi şeyleri söylemenizi önerir.
+
 3) *duyumlarınızı keşfedin*: Duyumu merak edin; örneğin tam dikkatiniz dağılmak üzereyken parmaklarınız titriyor mu? Aklınıza eseni yapmadan önce duyguyla başbaşa kalın.
 Aslında yapmak istemediğiniz şeyi yapma yönündeki rahatsızlık verici içsel tetikleyiciyi hissettiğinizde "sakince akan bir derenin kenarında olduğunuzu hayal edin, sonra derede sürüklenen yaprakları hayal edin. Aklınızdaki her bir düşünceyi bir yaprağın üstüne koyun. Bu bir hatıra, bir kelime, endişe veya bir görüntü olabilir. Siz oturup yalnızca izlerken, bütün bu yaprakların dere boyunca sürüklenmesine izin verin.
+
 4) *eşik noktaların farkına varın*: eşik noktaları gün boyunca bir şeyden başka bir şeye geçiş yaptığımız anlardır. Örneğin bir toplantıdan diğerine giderken sosyal medya uygulamasına bakmaya başlayıp masanıza geçtiğinizde de uygulamaya bakmaya devam etmek... Burada tehlikeli olan şey eylemin kendisi değil, 'sadece birkaç saniyeliğine' bunları yapmaya başlayıp yarım saat konu dışına çıkmak gibi daha sonra pişman olacağınız şeyleri yapma ihtimalidir.
 bu dikkat dağıtıcı tuzağı ile başa etmek için özellikle etkili bulduğum bir teknik; '10 dakika kuralı'dır. yapacak daha iyi bir şey bulamadığımdan kendimi telefonumu kontrol etmek ister halde bulursam, kendime 'tamam olur ama şimdi değil.' diyorum, 10 dakika beklemem gerekiyor. Bu kural, bazı psikologların 'dürtü dalgasında sörf yapma' dedikleri şeyi yapmaya zaman tanır. bir dürtü sizi ele geçirdiğinde, duyguları fark etmek ve onlara bir dalgalara hakim olur gibi hakim olmak -ne uzaklaştırarak ne de dürtüye göre hareket ederek- duygular yatışana kadar onlarla baş etmenize yardımcı olur.
 
