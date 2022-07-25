@@ -91,8 +91,36 @@ The kubelet uses startup probes to know when a container application has started
 
 [//]: # (Kubelet Konfigürasyon)
 
-##### HPA
+#### HPA
 
 * Resource requests should be close to the average usage of the pods.
 
 [//]: # (task: metric server'dan average usage'i cek)
+
+#### RBAC
+
+RBAC systems can be used to define who can access what based on user identities.
+
+* **User Accounts vs. Service Accounts**
+
+In Kubernetes, RBAC policies can be used to define the access rights of human
+users (or groups of human users). Kubernetes identifies human users as user
+accounts. However, RBAC policies can also govern the behavior of software
+resources, which Kubernetes identifies as service accounts.
+
+The RBAC API declares four kinds of Kubernetes object:
+
+* Role: A Role always sets permissions within a particular namespace; when you
+  create a Role, you have to specify the namespace it belongs in.
+* ClusterRole: ClusterRole, by contrast, is a non-namespaced resource.
+* RoleBinding: A rolebinding grants the permissions defined in a role to a user or set of
+  users. It holds a list of subjects (*users, groups, or service accounts*) and a
+  reference to the role being granted.
+* ClusterRoleBinding: A RoleBinding grants permissions within a specific
+  namespace whereas a ClusterRoleBinding grants that access cluster-wide
+
+* **step by step**
+
+* create user
+* create role (which verb this role grants)
+* create rolebinding (bind role to a user, in order to allow user to perform given role)
