@@ -44,6 +44,14 @@ Red Hat Enterprise Linux CoreOS 49.84.202112162103-0
   managed by the Machine Config Operator (`clusteroperator/machine-config`).
 ```
 
+* insufficient memory&cpu
+
+```bash
+crc config set cpus 10
+crc config set memory 14867
+crc delete and crc start -p ~/Downloads/pull-secret.txt --log-level debug
+```
+
 <!-- [//]: # (#### Metrics deployment) -->
 [//]: # (```ansible ansible-playbook [-i </path/to/inventory>]
 [//]: # <OPENSHIFT_ANSIBLE_DIR>/playbooks/openshift-metrics/config.yml -e

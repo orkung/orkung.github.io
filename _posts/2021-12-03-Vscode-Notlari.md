@@ -40,6 +40,10 @@ Kısayolları custom oluşturduğumdan arada bir derli toplu iyi fikir, tabi bun
 
 [kaynak](https://github.com/yzhang-gh/vscode-markdown#keyboard-shortcuts-1)
 
+***Markdown formatter***
+
+genel olarak markdownlint'i kullan, sadece tablolari bicimlendirmek icin `ctrl+shift+P` ile *format document with* secip markdown all-in-one'a gec.
+
 ## Diger kisayollar
 
 Carnac toggle: `ctrl+alt+p`
