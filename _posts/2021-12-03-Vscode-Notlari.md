@@ -37,6 +37,7 @@ Kısayolları custom oluşturduğumdan arada bir derli toplu iyi fikir, tabi bun
 * Theme switcher: `ctrl+alt+t`
 * Source Control: `ctr+shift+g`
 * Explorer: `ctr+shift+e`
+* switch between split window panes: `ctrl+1, ctrl+2, ctrl+3`
 
 [kaynak](https://github.com/yzhang-gh/vscode-markdown#keyboard-shortcuts-1)
 
