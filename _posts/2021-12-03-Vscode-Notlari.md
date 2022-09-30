@@ -38,6 +38,7 @@ Kısayolları custom oluşturduğumdan arada bir derli toplu iyi fikir, tabi bun
 * Source Control: `ctr+shift+g`
 * Explorer: `ctr+shift+e`
 * switch between split window panes: `ctrl+1, ctrl+2, ctrl+3`
+* reopen closed editor: `ctr+shift+t`
 
 [kaynak](https://github.com/yzhang-gh/vscode-markdown#keyboard-shortcuts-1)
 
@@ -47,6 +48,9 @@ genel olarak markdownlint'i kullan, sadece tablolari bicimlendirmek icin `ctrl+s
 
 ## Diger kisayollar
 
-Carnac toggle: `ctrl+alt+p`
+* Carnac toggle: `ctrl+alt+p`
+* aktif pencereyi minimize etme: `alt+space+n`
 
 * Windows sync patch: C:\Users\<username>\AppData\Roaming\Code\User\sync\settings
+
+*Not*: change language mode kisayolu `ctrl+k+m` calismamaya basladi.

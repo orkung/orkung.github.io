@@ -63,25 +63,55 @@ crc delete and crc start -p ~/Downloads/pull-secret.txt --log-level debug
 
 ### Requests and limits
 
-when you specify a resource *request* for containers in a pod, the scheduler uses this information to decide which node to place thep pod on (pod'daki konteyner icin resource request yaptiginda, scheduler bu bilgiyi, pod'u hangi node'da ayaga kaldiracagina karar vermek icin kullanir.)
+when you specify a resource *request* for containers in a pod, the scheduler
+uses this information to decide which node to place thep pod on (pod'daki
+konteyner icin resource request yaptiginda, scheduler bu bilgiyi, pod'u hangi
+node'da ayaga kaldiracagina karar vermek icin kullanir.)
 
-the kubelet also reserves at least the  *request* amount of that system resource specifically fot that container to use. (kubelet en az request edilen kadar kaynagi konteyner icin rezerve eder.)
+the kubelet also reserves at least the  *request* amount of that system resource
+specifically fot that container to use. (kubelet en az request edilen kadar
+kaynagi konteyner icin rezerve eder.)
 
 ### Configure Liveness, Readiness and Startup Probes
 
-The kubelet uses liveness probes to know when to restart a container.  The kubelet uses Readiness probes to know when a container is ready to start accepting traffic... One use of this signal is to control which pods are used as backends for Services. When a pod is not ready, it's removed from Service load balancers.
+The kubelet uses liveness probes to know when to restart a container.  The
+kubelet uses Readiness probes to know when a container is ready to start
+accepting traffic... One use of this signal is to control which pods are used as
+backends for Services. When a pod is not ready, it's removed from Service load
+balancers.
 
-The kubelet uses startup probes to know when a container application has started. This can be used to adopt liveness checks on slow starting containers, avoiding them getting killed by the kubelet before they are up and running.
+The kubelet uses startup probes to know when a container application has
+started. This can be used to adopt liveness checks on slow starting containers,
+avoiding them getting killed by the kubelet before they are up and running.
+
+* `initialDelaySeconds`: The time, in seconds, after the container starts before
+  the probe can be scheduled. The default is 0.
+* `periodSeconds`: The delay, in seconds, between performing probes. The default
+  is 10. This value must be greater than timeoutSeconds.
+* `timeoutSeconds`: The number of seconds of inactivity after which the probe
+  times out and the container is assumed to have failed. The default is 1.
+  konteynerin down oldugu, probe'un zaman asimina ugradigi durumda inaktif
+  kalacak sure.
+* `successThreshold`: The number of times that the probe must report success
+  after a failure to reset the container status to successful. The value must be
+  1 for a liveness probe. The default is 1.
+* `failureThreshold`: The number of times that the probe is allowed to fail. The
+  default is 3. After the specified attempts:
+  * for a liveness probe, the container is restarted
+  * for a readiness probe, the pod is marked Unready
+  * for a startup probe, the container is killed and is subject to the pod’s
+    restartPolicy
 
 #### Notlar
 
 * HPA tanimlanmasi resource quota'dan yemiyor.
 
-#### ImageStreamTag
-
 #### Annotations
 
-* fields managed by a declarative configuraton layer. Attaching these fields as annotations distinguishes them from default values set by clients or servers, and from auto-generated fields and fields set by auto-sizing or auto-scaling systems.
+* fields managed by a declarative configuraton layer. Attaching these fields as
+  annotations distinguishes them from default values set by clients or servers,
+  and from auto-generated fields and fields set by auto-sizing or auto-scaling
+  systems.
 
 ### Using ConfigMaps as files from a Pod
 
@@ -132,3 +162,13 @@ The RBAC API declares four kinds of Kubernetes object:
 * create user
 * create role (which verb this role grants)
 * create rolebinding (bind role to a user, in order to allow user to perform given role)
+
+## Kind
+
+Set kubectl context to "kind-wslkind"
+You can now use your cluster with:
+kubectl cluster-info --context kind-wslkind
+Kubernetes master is running at https://127.0.0.1:35449
+CoreDNS is running at https://127.0.0.1:35449/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
+
+[kaynak](https://kubernetes.io/blog/2020/05/21/wsl-docker-kubernetes-on-the-windows-desktop/)
