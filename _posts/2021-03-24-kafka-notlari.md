@@ -173,14 +173,3 @@ every topic partition in kafka is replicated n times, where n is the replication
 
 - partitions count, replication factor
   - partitions per topic: (num of broker x2 if n<6)
-
-vaf'ta 80'i al 443'e at diyor
-auth.vodafone.com.tr servisi var onunla entegre ederlerse arringmant'a ihtiyacimiz var mi
-enrichment
-mobilodeme'nin 80'ini kapatiyor. kapatabilirsin
-firmalarla iletisime gecmek lazim. http gondermeyin, yaptik dediklerinde keseriz.
-
-arkadaki uygulama kapex'i desteklemiyor. canlida da aynisi
-standalone jar calisiyor.
-
-%10 mu vs?

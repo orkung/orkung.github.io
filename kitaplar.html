@@ -1,0 +1,9 @@
+---
+layout: page
+title: Kitap Notları
+---
+{% for kitap in site.kitaplar %}
+	<div class="kitap">
+		<h2><a href="{{ kitap.url }}">{{ kitap.title }}</a></h2>
+	</div>
+{% endfor %}

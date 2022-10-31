@@ -19,14 +19,38 @@ Kısayolları custom oluşturduğumdan arada bir derli toplu iyi fikir, tabi bun
 * Fuzzy file opener: `Ctrl-p`
 * Command line : `Ctrl-Shift-P`
 * Markdown Satir bosluk birakma: `<br/><br/>`
-* Markdown yorum ekleme: `[//]: # ()`
+* Markdown yorum ekleme: `gcc`
+* Markdown toggle bold: `Ctrl+Alt+b`
+* Markdown toggle italic: `Ctrl+Alt+i`
+* Markdown yorum ekleme: `[//]: # ()` `<!-- -->`
 * Bulundugun dizine yeni tab ekleme: `Ctrl-Alt-N`
 * Markdown table generate etme: `Alt+Shift+t`
 * Markdown table rearrange: `Alt+Shift+f`
-* git push: `Ctrl+Alt+l`
+* git push: `Ctrl+Alt+p`
 * editor tab zoom: `Alt+Shift+m`
 * editor split horizontal file: `Ctrl-\`
 * editor split vertical file: `Ctrl-k Ctrl'\`
 * bulundugun dizinde yeni dosya acma: `Ctrl-Alt-n`
 * toggle activity bar: `Ctrl-Alt-;`
 * Sonraki terminale gecme: `ctrl+shift+]`
+* timestamp ekleme: `ctrl+shift+I`
+* Theme switcher: `ctrl+alt+t`
+* Source Control: `ctr+shift+g`
+* Explorer: `ctr+shift+e`
+* switch between split window panes: `ctrl+1, ctrl+2, ctrl+3`
+* reopen closed editor: `ctr+shift+t`
+
+[kaynak](https://github.com/yzhang-gh/vscode-markdown#keyboard-shortcuts-1)
+
+***Markdown formatter***
+
+genel olarak markdownlint'i kullan, sadece tablolari bicimlendirmek icin `ctrl+shift+P` ile *format document with* secip markdown all-in-one'a gec.
+
+## Diger kisayollar
+
+* Carnac toggle: `ctrl+alt+p`
+* aktif pencereyi minimize etme: `alt+space+n`
+
+* Windows sync patch: C:\Users\<username>\AppData\Roaming\Code\User\sync\settings
+
+*Not*: change language mode kisayolu `ctrl+k+m` calismamaya basladi.

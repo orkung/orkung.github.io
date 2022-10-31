@@ -28,6 +28,7 @@ navigation:
   - {file: "index.html", icon: home}
   - {file: "hakkimda.md", icon: address-card}
   - {file: "faydali_linkler.md", icon: address-card}
+  - {file: "kitaplar.html"}
 
 external:                    # see http://fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:cavit[at]orkun[dot]space"}
@@ -53,3 +54,7 @@ defaults:
       path: "assets/img"
     values:
       image: true
+
+collections:
+  kitaplar:
+    output: true
