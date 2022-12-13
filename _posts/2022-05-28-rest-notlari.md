@@ -37,7 +37,13 @@ the <form> element and add them to the body property in the request object.
 
 now, you should be able to see everythin in the form field within the req.body object.
 
+### Postman echo
+
+`GET` request: retrieve the data that identified by a unique URI. `GET` request can pass parameters to the server using "Query String Parameters"
+endpoint echoes the HTTP headers, request parameters and the complete URI requested.
+
 #### kaynaklar
 
 * [freecodecamp](https://www.freecodecamp.org/news/rest-api-tutorial-rest-client-rest-service-and-api-calls-explained-with-code-examples/)
 * [freecodecamp](https://www.freecodecamp.org/news/building-a-simple-crud-application-with-express-and-mongodb-63f80f3eb1cd/)
+* [postman](https://web.postman.co/workspace/My-Workspace~a7d970b0-d569-47e7-8dd5-aa622c3af48f/documentation/3414154-ac52bfa8-f49a-44a5-a1d9-b3f5f306265d)

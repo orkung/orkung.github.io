@@ -172,3 +172,56 @@ Kubernetes master is running at https://127.0.0.1:35449
 CoreDNS is running at https://127.0.0.1:35449/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
 
 [kaynak](https://kubernetes.io/blog/2020/05/21/wsl-docker-kubernetes-on-the-windows-desktop/)
+
+* `kubectl`'de olup `oc`'de olmayan komut: `kubectl top pod <podname>`
+* cpu unit: 974m, '1' memory unit: "100Mi", 1000Gi, 2Gi
+
+## k8s service accounts
+
+k8s does not have objects whihc represent normal user accounts. normal users
+cannot be added to a cluister through an API call. they need to go through
+access control processes to get added to the cluster.
+
+though a normal user cannot be added via an API call, any user that presents a
+valid certificate signed by the cluster's certificate authority is considered
+  authenticated. There is no username concept in the k8s.
+
+in contrast, service accounts are users managed by k8s API. they're bound to
+specific namespaces, and created automatically by the API server or manually
+through API calls. Each service account is associated with a secret, and each
+secret has a token. And that particular token is used for authentication.
+
+kubeconfig contains user & corresponding cluster list itself. there are three
+sections in this yaml file; *clusters*, *contexts*, *users*.
+
+```shell
+openssl req       \
+  -new            \
+  -key orkun.key  \
+  -out orkun.csr  \
+  -subj "/CN=Orkun Gunay/O=Devops"
+
+openssl x509      \
+  -req            \
+  -in orkun.csr   \
+  -CA ca.crt      \
+  -CAkey ca.key   \
+  -CAcreateserial \
+  -out orkun.crt  \
+  -days 10
+
+kubectl config set-cluster docker-desktop \
+  --server=https://127.0.0.1:35449        \
+  --certificate-authority=ca.crt          \
+  --embed-certs=true
+
+kubectl config set-credentials orkun      \
+  --client-certificate=orkun.crt          \
+  --client-key=orkun.key                  \
+  --embed-certs=true
+
+kubectl config set-context dev            \
+  --cluster=docker-desktop                \
+  --namespace=devops                      \
+  --user=orkun
+```
