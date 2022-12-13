@@ -24,6 +24,10 @@ istersen quick command'dan istersen klavye kisayolu ile acip kapatabiliyorsun.
 * notes: `ctrl+alt+n`
 * panel: `ctrl+b`
 * tile tabs: `ctrl+F9`
+* untile tabs: `ctrl+F6`
 * bookmark: `ctrl+alt+b`
 * pin/unpin tab : `ctrl+shift+p`
 * hibernate background tabs: `ctrl+alt+h`
+* delete browsing data: `Ctrl + Shift + Del`
+* settings: `ctrl+f12`
+* take a break: `ctrl+.`
