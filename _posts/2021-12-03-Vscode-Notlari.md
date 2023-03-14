@@ -1,7 +1,7 @@
-+++
+---
 title: "Vscode Kısayollarım"
 layout: post
-+++
+---
 
 ## Kisayollar
 
@@ -41,6 +41,11 @@ Kısayolları custom oluşturduğumdan arada bir derli toplu iyi fikir, tabi bun
 * reopen closed editor: `ctr+shift+t`
 * switch workspaces: `ctr+k+w`
 * open saved workspaces in new window: `ctrl+k+ctrl+w`
+* java format file: `ctrl+k+ctrl+f`
+* indent'te noktalar gozukmesin: `View: Toggle Render Whitespace
+* `"editor.folding": false`
+* split down: `ctrl+\+\`, split right: `ctrl+\+a`
+* toggle activity bar: `ctrl+alt+;`
 
 [kaynak](https://github.com/yzhang+gh/vscode+markdown#keyboard+shortcuts+1)
 

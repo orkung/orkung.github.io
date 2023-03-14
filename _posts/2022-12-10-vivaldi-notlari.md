@@ -21,11 +21,13 @@ istersen quick command'dan istersen klavye kisayolu ile acip kapatabiliyorsun.
 
 ### klavye kisayollari
 
+* notes tab: `ctrl+alt+n`
+* notes panel: `ctrl+shift+o`
 * notes: `ctrl+alt+n`
 * panel: `ctrl+b`
 * tile tabs: `ctrl+F9`
 * untile tabs: `ctrl+F6`
-* bookmark: `ctrl+alt+b`
+* bookmark: `ctrl+alt+b`gt
 * pin/unpin tab : `ctrl+shift+p`
 * hibernate background tabs: `ctrl+alt+h`
 * delete browsing data: `Ctrl + Shift + Del`
