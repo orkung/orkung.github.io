@@ -46,6 +46,7 @@ Kısayolları custom oluşturduğumdan arada bir derli toplu iyi fikir, tabi bun
 * `"editor.folding": false`
 * split down: `ctrl+\+\`, split right: `ctrl+\+a`
 * toggle activity bar: `ctrl+alt+;`
+* jenkinsfile validator: `shift+alt+v`
 
 [kaynak](https://github.com/yzhang+gh/vscode+markdown#keyboard+shortcuts+1)
 
