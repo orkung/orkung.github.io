@@ -161,7 +161,8 @@ The RBAC API declares four kinds of Kubernetes object:
 
 * create user
 * create role (which verb this role grants)
-* create rolebinding (bind role to a user, in order to allow user to perform given role)
+* create rolebinding (bind role to a user, in order to allow user to perform
+  given role)
 
 ## Kind
 
