@@ -23,9 +23,27 @@ delivery pipelines "as code" via the Pipeline domain-specific language (DSL)
 syntax.
 
 * Declarative vs scripted Pipeline syntax
-Declarative Pipeline provides richer syntactical features over Scripted
-Pipeline syntax, and is designed to make writing and reading Pipeline code
-easier.
+Declarative Pipeline provides richer syntactical features over Scripted Pipeline
+syntax, and is designed to make writing and reading Pipeline code easier.
+Declarative Pipeline does not allow method calls on objects outside "script"
+blocks.
+
+The definition of a Jenkins Pipeline is written into a text file (called a
+Jenkinsfile) which in turn can be committed to a project’s source control
+repository. This is the foundation of "Pipeline-as-code"; treating the CD
+pipeline a part of the application to be versioned and reviewed like any other
+code.gt
+
+* Shared Libraries: Pipeline has support for creating "Shared Libraries" which
+  can be defined in external source control repositories and loaded into
+  existing Pipelines. Shared Libraries directory structure;
+  * src: standard Java source directory structure. This directory is added to
+    the classpath when executing Pipelines.
+  * vars: hosts script files that are exposed as a varialbe in Pipelines. The
+    name of the file is the name of the varialbe in the Pipeline
+  * Resources: allows the libraryResource step to be used from an external
+    library to load associated non-Groovy files.
+* Soru: preserved stash'lerde container images tutulabilir mi?
 
 #### Genel Kaynaklar
 
@@ -105,6 +123,7 @@ the nodes. Consider placing your scripts under the master jenkins home
 directory.
 
 [//]: # (**Scriptler Plugin**)
+[//]: # (Config File Provider)
 [//]: # (
 Recommended plugins
 Folders
