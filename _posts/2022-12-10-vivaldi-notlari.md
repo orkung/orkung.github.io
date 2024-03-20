@@ -1,25 +1,25 @@
 ---
-title: "Vivaldi Tarayici Ozellikleri"
+title: "Vivaldi Tarayıcı Özellikleri"
 layout: post
 ---
 
-opera'nin ozelliklerinin chrome engine'e uyarlanmis hali diyebiliriz. Daha once
-opera kullananlarin bildigi bu zengin ozelliklerin yanisira bir de manuel is
-yapma durumu burada da mevcut. Ben tarayicidan memnun kaldigim icin bu yuku de
-ustlenmeye hazirim.
+Opera'nın özelliklerinin chrome engine'e uyarlanmış hali diyebiliriz. Daha önce
+opera kullananların bildiği bu zengin özelliklerin yanısıra bir de manuel iş
+yapma durumu burada da mevcut. Ben tarayıcıdan memnun kaldığım için bu yükü de
+üstlenmeye hazırım.
 
-## ozellikler
+## Özellikler
 
-* web paneller: arka planda calisan veya sik sik goz atilacak siteler icin ideal
-bir cozum, sikintisi su ki, memory kullanimi sisiyor,
-[burada](https://forum.vivaldi.net/topic/26623/zoom-find-in-page-other-actions-in-web-panels)
-ve [burada](https://forum.vivaldi.net/topic/24540/hibernating-unloading-web-panels-content/14) anlatilan
-workaround'la cozuluyor.
-* arayuz kisiselletirmesi gelismis, istedigin gibi bar'lari gizleyebiliyor,
-istersen quick command'dan istersen klavye kisayolu ile acip kapatabiliyorsun.
-*
+* web paneller: arka planda çalışan veya sık sık göz atılacak siteler için ideal
+  bir çözüm, sıkıntısı şu ki, memory kullanımı sisiyor, kullanılmayacağı zaman
+  tarayıcının görev yöneticisinden işlemleri öldürmek iyi olur.
 
-### klavye kisayollari
+[burada](https://forum.vivaldi.net/topic/26623/zoom-find-in-page-other-actions-in-web-panels) ve [buradaki](https://forum.vivaldi.net/topic/24540/hibernating-unloading-web-panels-content/14) workaround'larla çözülüyor.
+
+* Arayüz kişiselletirmesi gelişmiş, istediğin gibi bar'ları gizleyebiliyor,
+  istersen quick command'dan istersen klavye kısayolu ile açıp kapatabiliyorsun.
+
+### Klavye Kısayolları
 
 * notes tab: `ctrl+alt+n`
 * notes panel: `ctrl+shift+o`
@@ -27,7 +27,7 @@ istersen quick command'dan istersen klavye kisayolu ile acip kapatabiliyorsun.
 * panel: `ctrl+b`
 * tile tabs: `ctrl+F9`
 * untile tabs: `ctrl+F6`
-* bookmark: `ctrl+alt+b`gt
+* bookmark: `ctrl+alt+b`
 * pin/unpin tab : `ctrl+shift+p`
 * hibernate background tabs: `ctrl+alt+h`
 * delete browsing data: `Ctrl + Shift + Del`

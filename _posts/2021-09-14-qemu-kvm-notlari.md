@@ -1,10 +1,9 @@
 ---
-title: "QEMU/KVM notlari"
+title: "QEMU/KVM Notları"
 layout: post
-comments: true
 ---
 
-* vm olusturma
+* vm oluşturma
 
 ```shell
 virt-install                  \
@@ -22,10 +21,8 @@ virt-install                  \
 * vm bilgileri
 
 ```shell
-sudo virsh
-list --all
-domifaddr
+sudo virsh list --all domifaddr
 ```
 
-* uzak vm'deki ip:port'u lokaline yonlendir:
-* `ssh -f -L 127.0.0.1:8080:vm_ip:port -p22 uzak_user@uzak_host 9 sleep 3000`
+* uzak vm'deki ip:port'u lokaline yönlendir:
+`ssh -f -L 127.0.0.1:8080:vm_ip:port -p22 uzak_user@uzak_host 9 sleep 3000`

@@ -24,67 +24,46 @@ Some of The Most Important SQL Commands
 `HAVING` - Gruplanan ya da hesaplanan alanlarin sinirlanmasi icin kullanilan
 bir kisimdir. WHERE kismi ile karistirilmamasi gerekir.
 
-`UPDATE` - updates data in a database
-
-`DELETE` - deletes data from a database
-
-`INSERT INTO` - inserts new data into a database
-
-`CREATE DATABASE` - creates a new database
-
-`ALTER DATABASE` - modifies a database
-
-`CREATE TABLE` - creates a new table
-
-`ALTER TABLE` - modifies a table
-
-`DROP TABLE` - deletes a table
-
-`CREATE INDEX` - creates an index (search key)
-
-`DROP INDEX` - deletes an index
-
+```sql
+UPDATE          # updates data in a database
+DELETE          # deletes data from a database
+INSERT INTO     # inserts new data into a database
+CREATE DATABASE # creates a new database
+ALTER DATABASE  # modifies a database
+CREATE TABLE    # creates a new table
+ALTER TABLE     # modifies a table
+DROP TABLE      # deletes a table
+CREATE INDEX    # creates an index (search key)
+DROP INDEX      # deletes an index
+```
 
 #### Operators in the WHERE Clouse
 
 `=` eual
-
 `>` greater than
-
 `<` less than
-
 `>`= greater than or equal
-
 `<`= less than or equal
-
 `<>` not equal. (some versions of SQL may be `!=`)
-
 `BETWEEN` between a certain range
-
 `LIKE` search for a pattern
-
 `IN` to specify multiple possible values for a column
-
 `ORDER BY` several columns example;
-customers tablosundan country'e ve customername'e gore `ORDER BY`
-yaptigimizda, country'e gore siralama, ayni country'dekileri ise customername'e
-gore siralamak icin kullanilir.
-
+customers tablosundan country'e ve customername'e göre `ORDER BY` yaptığımızda,
+country'e göre sıralama, aynı country'dekileri ise customername'e göre sıralamak
+için kullanılır.
 The customerid column is an auto-increment field and will be generated
 automatically when a new record is inserted into the table
-
-
-`update` syntax'ini kullanirken dikkat edilmesi gereken, asla ve asla where
-clause'un unutulmamasi, eger unutursan butun tabloyu update edersin...
-
-
+`update` syntax'ini kullanırken dikkat edilmesi gereken, asla ve asla where
+clause'un unutulmaması, eğer unutursan bütün tabloyu update edersin...
 The following SQL statement selects all customers that are from the same countries as the suppliers:
 
-Example
+```sql
 SELECT * FROM Customers
 WHERE Country IN (SELECT Country FROM Suppliers);
+```
 
-* sutunda birden cok data'yi cekmek icin where clause'da ```IN``` kullanilir.
+* sutunda birden cok data'yi cekmek icin where clause'da `IN` kullanılır.
 
 ```sql
 select
@@ -97,9 +76,10 @@ where
         'deger_2',
     );
 ```
-* Time'a gore sorguda hata alinirsa (string, float, integer birarda oldugunda)
-  donusturulup sorgulanabilir;
-  
+
+* Time'a göre sorguda hata alınırsa (string, float, integer birarda olduğunda)
+  dönüştürülüp sorgulanabilir;
+
 ```sql
 select
     *
@@ -112,6 +92,7 @@ where
 `set define off`  insert ve update öncesi kullanılıyor. scriptteki bazı karakterlerlere kızıyorsa (&  gibi) bu komut kullanılabilir.
 
 * tabloda update ornegi;
+
 ```sql
 UPDATE
     tablo_adi
@@ -123,7 +104,7 @@ WHERE
 COMMIT;
 ```
 
-* NOT IN calisma
+* NOT IN çalışma
 
 ```sql
 CREATE TABLE sales (
@@ -204,11 +185,11 @@ where
     );
 ```
 
-* select sorgusu tablodaki her value2 degerine gore curl komutunu satir olarak basar
+* select sorgusu tablodaki her value2 değerine göre curl komutunu satır olarak başar
 
 ```sql
 select
-    distinct 'curl --location --request POST ''http://adres'' \ 
+    distinct 'curl --location --request POST ''http://adres'' \
     --header ''Content-Type: text/plain'' \
     --data ''{
     "key": "value",
@@ -217,8 +198,8 @@ from tablo_adi
 where key='value';
 ```
 
-* select ciktisinin arasina kendi yazacagini ekleme, ornegin bir shell
-  script'in adini.
+* select çıktısının arasına kendi yazacağını ekleme, örneğin bir shell
+  script'in adını.
 
 ```sql
 select distinct
@@ -247,16 +228,16 @@ and 2.kolon_2 in (
 );
 ```
 
-2 tablonun birbirine JOIN komutu ile baglanmasinda INNER, OUTER, CROSS olmak
-uzere 3 farkli secenek bulunmaktadir.
+2 tablonun birbirine JOIN komutu ile bağlanmasında INNER, OUTER, CROSS olmak
+üzere 3 farklı seçenek bulunmaktadır.
 
-* INNER: her 2 tablonun da eslesen alanlarinin secilmesi saglanir. (Kesisim
-kumesi)
+* INNER: her 2 tablonun da eşleşen alanlarının seçilmesi sağlanır. (Kesişim
+kümesi)
 * OUTER:
 
-Tablolarin birbirine baglanmasi iliskili alanin eslenerek baglanan tabloda
-karsiliginin aranmasi icin kullanilir. Veri birlestirme ise, birbiri ile *ayni
-sayida ve turde*  alanlari olan veri kumelerinin alt alta birlestirilmesi,
-kesisim kumelerinin ve farklarinin bulunmasi islemidir.
+Tabloların birbirine bağlanması ilişkili alanın eşlenerek bağlanan tabloda
+karşılığının aranması için kullanılır. Veri birleştirme ise, birbiri ile *aynı
+sayıda ve türde*  alanları olan veri kümelerinin alt alta birleştirilmesi,
+kesişim kümelerinin ve farklarının bulunması işlemidir.
 
-##### Regex on PL/SQL
+[//]: # Regex on PL/SQL

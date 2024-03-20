@@ -1,5 +1,5 @@
 ---
-title: "ELK Notlari"
+title: "ELK Notları"
 layout: post
 ---
 
@@ -9,7 +9,7 @@ DSL: domain specific language
 
 ## Kibana
 
-ES'in index'ledigi field'lar senin ornegin kibana > integrations'ta sample data'da ekledigin field'lar oluyor.
+ES'in index'lediği field'lar; senin örneğin kibana > integrations'ta sample data'da eklediğin field'lar oluyor.
 
 ### Alerting
 

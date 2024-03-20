@@ -5,7 +5,7 @@ layout: post
 
 ## Kisayollar
 
-Kısayolları custom oluşturduğumdan arada bir derli toplu iyi fikir, tabi bunlar keybinding.json dosyasında da bulunuyor, buraya ekstra eklememin sebebi daha kolay erişime sağlayabilmek.
+Kısayolları custom oluşturduğumdan derli toplu bir yerde tutmak iyi fikir, tabi bunlar keybinding.json dosyasında da bulunuyor.
 
 * Command palette: `ctrl+shift+p`
 * Set language mode: `ctrl+k+m`
@@ -55,11 +55,10 @@ Kısayolları custom oluşturduğumdan arada bir derli toplu iyi fikir, tabi bun
 
 genel olarak markdownlint'i kullan, sadece tablolari bicimlendirmek icin `ctrl+shift+P` ile *format document with* secip markdown all+in+one'a gec.
 
-## Diger kisayollar
+### Diger kisayollar
 
 * Carnac toggle: `ctrl+alt+p`
 * aktif pencereyi minimize etme: `alt+space+n`
-
 * Windows sync patch: C:\Users\<username>\AppData\Roaming\Code\User\sync\settings
 
-*Not*: change language mode kisayolu `ctrl+k+m` calismamaya basladi.
+~~*Not*: change language mode kisayolu `ctrl+k+m` calismamaya basladi.~~

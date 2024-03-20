@@ -1,5 +1,5 @@
 ---
-title: "Rest Ogreniyorum"
+title: "Rest Öğreniyorum"
 layout: post
 ---
 
@@ -18,13 +18,13 @@ correct response.
 
 ### REST Server
 
-ExpressJS ile GET ve POST metodlari icin endpoint'ler olusturduk.
+ExpressJS ile GET ve POST metodları için endpoint'ler oluşturduk.
 
 ### REST Client
 
-Server olusturduk, peki websitesinden veya web uygulamasindan buraya nasil
-ulasabiliriz? REST client kutuphaneleri bu noktada yardimci oluyor; form iceren
-bir web sayfasi hazirlayacagiz, 2 numara girebilecegin ve sonucu gorebilecegin
+Server oluşturduk, peki websitesinden veya web uygulamasından buraya nasıl
+ulaşabiliriz? REST client kütüphaneleri bu noktada yardımcı oluyor; form içeren
+bir web sayfası hazırlayacağız, iki numara girebileceğin ve sonucu görebileceğin
 bir form olacak.
 
 Express alows us to add middlewares like body-parser to our application whith
@@ -39,11 +39,13 @@ now, you should be able to see everythin in the form field within the req.body o
 
 ### Postman echo
 
-`GET` request: retrieve the data that identified by a unique URI. `GET` request can pass parameters to the server using "Query String Parameters"
+`GET` request: retrieve the data that identified by a unique URI. `GET` request
+can pass parameters to the server using "Query String Parameters"
+
 endpoint echoes the HTTP headers, request parameters and the complete URI requested.
 
 #### kaynaklar
 
-* [freecodecamp](https://www.freecodecamp.org/news/rest-api-tutorial-rest-client-rest-service-and-api-calls-explained-with-code-examples/)
-* [freecodecamp](https://www.freecodecamp.org/news/building-a-simple-crud-application-with-express-and-mongodb-63f80f3eb1cd/)
-* [postman](https://web.postman.co/workspace/My-Workspace~a7d970b0-d569-47e7-8dd5-aa622c3af48f/documentation/3414154-ac52bfa8-f49a-44a5-a1d9-b3f5f306265d)
+> [freecodecamp](https://www.freecodecamp.org/news/rest-api-tutorial-rest-client-rest-service-and-api-calls-explained-with-code-examples/)
+> [freecodecamp](https://www.freecodecamp.org/news/building-a-simple-crud-application-with-express-and-mongodb-63f80f3eb1cd/)
+> [postman](https://web.postman.co/workspace/My-Workspace~a7d970b0-d569-47e7-8dd5-aa622c3af48f/documentation/3414154-ac52bfa8-f49a-44a5-a1d9-b3f5f306265d)
