@@ -4,7 +4,8 @@ title: Onurlu Yaşam Davası Demirtaşın Savunması
 image_path: https://medyascope.tv/wp-content/uploads/2024/04/Ekran-Resmi-2024-04-10-21.04.58.jpg
 ---
    
-İçindekiler  
+# İçindekiler
+
 Sunuş	11 
 Ben savunmamı heyetinize falan vermiyorum, mahkemenize karşı yapmıyorum; savunmamı halka sunuyorum	23 
 Türkçü Türk devleti tarafından yargılanıyoruz	32 
@@ -100,22 +101,13 @@ Türkiye Cumhuriyeti devleti resmi ideolojisi ve Türk millet resmi tezi, Kürtl
 Ben tam olarak anlaşılmayı, tarihe, halka karşı bir borç olarak görüyorum	587 
 Bizim ödediğimiz bedeller barışa vesile olsun, biz canımızdan bile vazgeçeriz	595 
 An serkeftin an serkeftin, bijî tekoşîna azadî	603 
-   
- 
- 
-   
 
-   
- 
 Savunmamı, okuma yazması olmamasına rağmen alın teriyle yedi çocuğunu da üniversitede okutan emekçi 
 babama, Tahir Usta'ya, onun şahsında evlat acısı, evlat hasreti çeken tüm annelere, babalara ithaf ediyorum. 
-Babasının vefatının ardından çıktığı duruşmada. 
- 
- 
+Babasının vefatının ardından çıktığı duruşmada.
    
+## Sunuş
 
-   
-Sunuş 
 Bu çalışma, Demirtaş’ın sadece Kobani Davası olarak bilinen, Ankara 22. Ağır Ceza Mahkemesindeki savunmasını ele almıştır. Demirtaş’ın bu davayla birleştirilen, tek başına yargılandığı Ankara 19. Ağır Ceza Mahkemesindeki, pek çok dosyasının birleştirildiği Mersin 14. Asliye Ceza Mahkemesindeki ve başkaca mahkemelerdeki savunmalarına yer verilmemiştir. O mahkemedeki savunmaları ayrı çalışmaların konularıdır. 
    Bu çalışma yayımlanana kadar internet ortamında “Demirtaş’ın savunması”, “Demirtaş’ın savunmasının tam metni” gibi başlıklarla yayımlanan, paylaşılan metinlerden hiçbiri Demirtaş’ın savunmasının tam metni değildir. Söz konusu metinler, Demirtaş’ın savunmasını takip eden HDP Basın Bürosu emekçileri ile diğer basın emekçilerinin, Demirtaş savunma yaparken o anda yazabildikleri uzun metinler, haberlerdir.  
    Öte yandan, Demirtaş’ın mahkeme boyunca söyledikleri kelimesi kelimesine yazılsa bile oluşacak metinden, Demirtaş’ın savunmasının tam metni olarak söz etmek doğru olmaz. Çünkü Demirtaş savunmasında çok sayıda belgeye, fotoğrafa da yer verdi ve bunları SEGBİS kamerasına göstererek ve dava dosyasına ekleyerek kayıtlara geçirdi.  
