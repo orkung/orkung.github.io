@@ -1,6 +1,7 @@
 ﻿---
 layout: kitap
-title: ONURLU YAŞAM DAVASI Demirtaş'ın Savunması 
+title: ONURLU YAŞAM DAVASI Demirtaş'ın Savunması
+image_path: https://medyascope.tv/wp-content/uploads/2024/04/Ekran-Resmi-2024-04-10-21.04.58.jpg
 ---
    
 İçindekiler  
