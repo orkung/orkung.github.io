@@ -48,6 +48,7 @@ Kısayolları custom oluşturduğumdan derli toplu bir yerde tutmak iyi fikir, t
 * toggle activity bar: `ctrl+alt+;`
 * toggle teminal fullscreen: `ctrl+alt+m`
 * jenkinsfile validator: `shift+alt+v`
+* view: toggle editor group size: `shift+alt+m` (vim'deki pencereye zoom yapma)
 
 [kaynak](https://github.com/yzhang+gh/vscode+markdown#keyboard+shortcuts+1)
 
