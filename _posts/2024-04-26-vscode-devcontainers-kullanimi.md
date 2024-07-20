@@ -4,8 +4,6 @@ layout: post
 comments: true
 ---
 
-sunum icin yapilan ek
-
 ## Amac
 
 containerization'da olduğu gibi; farklı ortamlarda geliştirme yapıldığında, tüm
@@ -35,7 +33,7 @@ Command line'da:
 * Docker volume'a herhangi bir dosyayi surukle birak yaparak yukleyebiliyorum.
 * Sidebar'da eklentiler menusu altinda container icinde calisan eklentileri
   gorebilirsiniz, github copilot eklentileri host vscode'dan gelirken eslint ve
-  ruby lsp eklentileri microsoft'un imajindan geliyor. 
+  ruby lsp eklentileri microsoft'un imajindan geliyor.
 
   ![](/assets/img/devcontainer_jekyll_vscode_extensions.png)
 

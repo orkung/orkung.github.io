@@ -49,6 +49,11 @@ Kısayolları custom oluşturduğumdan derli toplu bir yerde tutmak iyi fikir, t
 * toggle teminal fullscreen: `ctrl+alt+m`
 * jenkinsfile validator: `shift+alt+v`
 * view: toggle editor group size: `shift+alt+m` (vim'deki pencereye zoom yapma)
+* markdown collapse section: bolgeyi secip `ctrl+k+ctrl+,`
+* markdown remove collapse section: `ctrl+k+ctrl+.`
+* toggle collapse/expand section: `ctrl+k+ctrl+l`
+* toggle expand full page: `ctrl+k+ctrl+j`
+* toggle collapse full page: `ctrl+k+ctrl+0`
 
 [kaynak](https://github.com/yzhang+gh/vscode+markdown#keyboard+shortcuts+1)
 
