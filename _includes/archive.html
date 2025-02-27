@@ -1,17 +1,21 @@
 <article>
   <header><h1>{{ include.title | default: page.title }}</h1></header>
-  <ul class="archive">
+  <div class="right-side">
+    <ul class="archive">
+      {% for post in site.posts %}
+      <li>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
     {% for post in site.posts %}
-    <li>
-      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       {% if post.tags %}
         <div class="tags">{{ post.tags | join: ", " }}</div>
       {% endif %}
       {% if post.categories %}
         <div class="categories">{{ post.categories | join: ", " }}</div>
       {% endif %}
-    </li>
     {% endfor %}
-  </ul>
+  </div>
 </article>
