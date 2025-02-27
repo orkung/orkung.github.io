@@ -1,6 +1,8 @@
 ---
 title: "Linux Swap Alanı Yönetimi"
 layout: post
+tags: [swap, memory]
+categories: [linux]
 ---
 
 ### Swap alanı ne işe yarar, gerekli mi?
