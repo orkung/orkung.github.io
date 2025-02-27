@@ -1,6 +1,8 @@
 ---
 Title: Read-Only Bağlanan LVM Diskin Fsck ile Onarımı
 layout: post
+tags: [recovery]
+categories: [linux]
 ---
 
 [//]: # (Modified: 2018-03-18 17:30

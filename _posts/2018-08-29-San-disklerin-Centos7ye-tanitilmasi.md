@@ -1,6 +1,8 @@
 ---
 title: "San Disklerin Centos7'ye Tanıtılması"
 layout: post
+tags: [Centos7, SAN, iscsi, multipath, firewall]
+categories: [linux, storage]
 ---
 
 * Sunucularda iscsi initiatorname'ler oluşturulup storage admin'e iletilir:

@@ -1,6 +1,8 @@
 ---
 title: "ntfy.sh servis kullanımı"
 layout: post
+tags: [notification, curl, android]
+categories: [tools]
 ---
 
 curl'le desktop/android'e herhangi bir hesap vs. oluşturmadan notification

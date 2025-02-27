@@ -2,6 +2,8 @@
 title: "Jekyll ile İlk Yazı"
 layout: post
 comments: true
+tags: [jekyll, tutorial]
+categories: [blogging]
 ---
 
 Yeniden günlük yazmaya ve bu iş için [Jekyll](https://jekyllrb.com/)
