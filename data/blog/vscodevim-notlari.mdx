@@ -1,0 +1,16 @@
+---
+title: VscodeVim kullanimi
+date: '2025-06-26'
+tags: ['vim', 'vscode, 'vim-surround']
+draft: false
+summary: VscodeVim eklentilerini etkili kullanmak
+---
+
+- `vim-surround`'ta satıra html etiketi girmek için `y s $ <` tuş kombinasyonuna basarak açılan popup'a gireceğimiz etiketi yazabiliriz.
+bir tane örnek yapalım: bu satırın başına ve sonuna yorum etiketlerini girerek sayfada görüntülenmesini engellemek için `!--` yazdım ve aşağıdaki gibi bir satır oluşturdu:
+<!-->bir tane örnek yapalım:</!-->
+Daha sonra editleyip başındaki ve sonunda düzenleme yapıyorum. Yani tam bir çözüm değil, ama şimdilik bulabildiğim en iyi çözüm diyebilirim.
+- `vim-easymotion`'da asagi ve yukari dogru arama icin:
+```vim
+<leader><leader> j/k <char>
+```

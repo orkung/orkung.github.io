@@ -56,6 +56,7 @@ rvm use 2.7.0@proje_adi
 
 * Yankstack
 * vim-yaml-folds
+
   `za`: Toggle current fold
   `zR`: Expand all folds
 * ultisnips
@@ -63,6 +64,7 @@ rvm use 2.7.0@proje_adi
 [Creating Basic Snippets](https://www.youtube.com/watch?v=f_WQxYgK0Pk&feature=emb_logo)
 
 * yeni mapping'ler atiyorsun, ancak vimrc'de bunlara atanmis baska degerler
+
   olup olmadigini bilmiyorsun, bu durumda `:verbose imap <key>` yazarak
   test edebilirsin.
 
@@ -78,6 +80,14 @@ timewarrior `timew`: incremental olarak calisilan zamanin kaydini tutmayi
 saglar. Tag'ler ile hangi ise ne kadar zaman harcandigi belirtilebilir.
 Backdating ozelligi ile gecmiste baslatmayi veya durdurmayi unuttugumuz
 kayitlari da duzenleyebiliriz.
+
+* `find -mindepth -maxdepth`
+
+`-mindepth N`: Exclude matches less than N levels deep.
+`-maxdepth N`: Do not descend more than N levels.
+`mindepth` ile aramaya hangi alt dizinden baslamasi
+gerektigini soyluyoruz, `maxdepth` ile hangi alt dizine kadar
+arayabilecegini soyluyoruz.
 
 ### Snap
 
@@ -137,8 +147,8 @@ wsl --terminate <wsl_name>
 ```
 
 * docker-desktop alpinem'mis, chroot etmek icin; `wsl -d docker-desktop`
-
 * ram kullanimini sinirlandirma: windows Kullanicisinin ev dizininde
+
   `.wslconfig` dosyasina asagidakini yaz;
 
 ```bash
@@ -158,4 +168,5 @@ memory=1GB
 #### CRC
 
 * crc network'unu actiktan sonra wsl'in dns cozmesi icin crc'nin atadigi server
+
   ip'sini resolv.conf'a yaz
