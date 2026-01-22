@@ -17,9 +17,7 @@ export async function generateStaticParams() {
   }))
 }
 
-export default async function TutorialsPageNumber(props: {
-  params: Promise<{ page: string }>
-}) {
+export default async function TutorialsPageNumber(props: { params: Promise<{ page: string }> }) {
   const params = await props.params
   const pageNumber = parseInt(params.page as string)
   const allPosts = allCoreContent(sortPosts(allBlogs))
