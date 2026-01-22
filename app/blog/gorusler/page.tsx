@@ -29,4 +29,3 @@ export default async function GoruslerPage(props: { searchParams: Promise<{ page
     />
   )
 }
-

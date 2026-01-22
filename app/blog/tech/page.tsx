@@ -29,4 +29,3 @@ export default async function TechPage(props: { searchParams: Promise<{ page: st
     />
   )
 }
-
